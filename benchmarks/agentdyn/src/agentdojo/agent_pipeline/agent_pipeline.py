@@ -58,6 +58,7 @@ DEFENSES = [
     "data_filter",
     "datafilter_bidir_tagger",
     "modernbert_tagger",
+    "commandsans",
     "spotlighting_with_delimiting",
     "repeat_user_prompt",
     "camel",
@@ -524,6 +525,22 @@ def _make_modernbert_tagger_defense() -> ToolOutputTaggerDefense:
     )
 
 
+def _make_commandsans_defense() -> ToolOutputTaggerDefense:
+    from agentdojo.agent_pipeline.commandsans_defense import CommandSansBackend
+
+    checkpoint_path = _required_env("COMMANDSANS_CHECKPOINT")
+    device, _ = _tagger_runtime_config(
+        "COMMANDSANS_BATCH_SIZE",
+        default_batch_size=1,
+    )
+    backend = CommandSansBackend(checkpoint_path=checkpoint_path, device=device)
+    return ToolOutputTaggerDefense(
+        defense_name="commandsans",
+        checkpoint_path=checkpoint_path,
+        backend=backend,
+    )
+
+
 def _optional_int_env(name: str) -> int | None:
     value = os.getenv(name)
     return int(value) if value else None
@@ -842,16 +859,18 @@ class AgentPipeline(BasePipelineElement):
         if config.defense in (
             "datafilter_bidir_tagger",
             "modernbert_tagger",
+            "commandsans",
         ):
             json_tool_output_formatter = partial(
                 tool_result_to_str,
                 dump_fn=json.dumps,
             )
-            tagger_defense = (
-                _make_datafilter_bidir_tagger_defense()
-                if config.defense == "datafilter_bidir_tagger"
-                else _make_modernbert_tagger_defense()
-            )
+            tagger_factories = {
+                "datafilter_bidir_tagger": _make_datafilter_bidir_tagger_defense,
+                "modernbert_tagger": _make_modernbert_tagger_defense,
+                "commandsans": _make_commandsans_defense,
+            }
+            tagger_defense = tagger_factories[config.defense]()
             tools_loop = ToolsExecutionLoop(
                 [
                     ToolsExecutor(json_tool_output_formatter),

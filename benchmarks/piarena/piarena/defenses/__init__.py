@@ -16,6 +16,7 @@ _DEFENSE_MODULES = {
     "piguard": ".piguard.defense_piguard",
     "deepseek_pisanitizer": ".deepseek_pisanitizer.defense_deepseek_pisanitizer",
     "modernbert_tagger": ".modernbert_tagger.defense_modernbert_tagger",
+    "commandsans": ".commandsans.defense_commandsans",
 }
 
 _IMPORT_ERRORS = {}

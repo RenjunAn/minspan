@@ -13,3 +13,7 @@ __pycache__/
 .venv/
 .claude/
 results/local-eval/
+data/ablations/
+baselines/commandsans/data/
+ablation_training.log
+*.log

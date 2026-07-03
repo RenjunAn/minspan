@@ -1,0 +1,12 @@
+dataset: open_prompt_injection
+backend_llm: Qwen/Qwen3-4B-Instruct-2507
+attack: combined
+defense: commandsans
+name: commandsans_demo
+seed: 42
+
+defense_config:
+  checkpoint_path: ../../checkpoints/commandsans/best
+  device: cuda
+  max_length: 512
+  stride: 256

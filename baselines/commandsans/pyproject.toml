@@ -1,0 +1,19 @@
+[project]
+name = "commandsans"
+version = "0.1.0"
+description = "Reimplementation of the CommandSans baseline: task-agnostic instruction removal from tool outputs"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.0",
+    "transformers>=4.48",
+]
+
+[project.optional-dependencies]
+data = ["datasets>=2.12", "openai>=1.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["commandsans"]
