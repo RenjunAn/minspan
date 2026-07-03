@@ -43,6 +43,8 @@ Legend: ✓ reproducible from this repo, ⚠ chain exists but needs a final step
 ## Pending experiments
 
 P0: ablations (no task-conditioning; no clean hard negatives) · CommandSans
-reproduction on both benchmarks · train/test contamination audit · Figure 1
-(method overview). P1: multi-seed / bootstrap CIs · per-environment AgentDyn
-tables · fair same-hardware latency comparison.
+reproduction on both benchmarks · Figure 1 (method overview).
+Done: train/test contamination audit (`results/contamination_audit.csv`) —
+both benchmarks are clean of training data.
+P1: multi-seed / bootstrap CIs · per-environment AgentDyn tables · fair
+same-hardware latency comparison.

@@ -6,6 +6,6 @@ name: modernbert_tagger_demo
 seed: 42
 
 defense_config:
-  checkpoint_path: ../../checkpoints/pitagger
+  checkpoint_path: ../../checkpoints/minspan
   device: cuda
   batch_size: 8

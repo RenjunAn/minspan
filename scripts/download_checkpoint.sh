@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Download the paper checkpoint from HuggingFace into
-# checkpoints/pitagger, the canonical location all eval configs point at.
+# checkpoints/minspan, the canonical location all eval configs point at.
 set -euo pipefail
 ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
-DEST="${1:-$ROOT/checkpoints/pitagger}"
+DEST="${1:-$ROOT/checkpoints/minspan}"
 
 # model files only — the HF repo also hosts dataset copies under datasets/
 if command -v hf >/dev/null 2>&1; then

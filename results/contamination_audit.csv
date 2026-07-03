@@ -1,0 +1,20 @@
+source,kind,n,exact_matches,docs_with_any_overlap,docs_over_50pct,mean_overlap_pct,max_overlap_pct,note
+p3_direct_test,documents,1000,74,18,8,1.9304,100.0000,base_id collisions with train: 0
+p3_direct_test,injections,1000,427,1000,1000,93.6131,100.0000,
+p3_strategy_test,documents,1000,69,19,11,2.2062,100.0000,base_id collisions with train: 0
+p3_strategy_test,injections,1000,249,920,648,62.6467,100.0000,
+p3_clean_hard_negative_test,documents,1000,81,20,12,2.5914,100.0000,base_id collisions with train: 0
+sep_test,documents,4000,4,28,12,0.2889,100.0000,base_id collisions with train: 0
+sep_test,injections,3000,0,96,0,0.0349,7.0423,
+format_test,documents,2400,156,48,48,3.4653,100.0000,base_id collisions with train: 0
+format_test,injections,1200,53,693,245,24.9239,100.0000,
+nemo_test,documents,1272,0,4,0,0.0084,3.4483,base_id collisions with train: 0
+nemo_test,injections,1272,0,0,0,0.0000,0.0000,
+nemo_test_clean,documents,1272,0,4,0,0.0084,3.4483,base_id collisions with train: 0
+nemo_test_env,documents,1272,0,4,0,0.0022,0.9050,base_id collisions with train: 0
+nemo_test_env,injections,1272,0,0,0,0.0000,0.0000,
+nemo_test_env_clean,documents,1272,0,4,0,0.0022,0.9050,base_id collisions with train: 0
+piarena,documents,1767,0,9,0,0.0062,4.6377,
+piarena,injections,1700,0,1,0,0.0042,7.1429,
+agentdyn,documents,2369,0,5,0,0.0011,0.9174,
+agentdyn,injections,62,0,0,0,0.0000,0.0000,

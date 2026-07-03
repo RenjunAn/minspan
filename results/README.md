@@ -11,6 +11,14 @@ Normalized result data behind the paper's tables and figures (see
 - `paired_costs.csv` — cross-model paired costs (paper Table `tab:paired-costs`)
 - `deepseek_table.csv` — both DeepSeek backends × all defenses (paper Table `tab:deepseek`)
 - `defense_ops.csv` — filtering-defense audit: removal quality, benign edits, fabrications, parse failures, latency
+- `contamination_audit.csv` — train/test overlap audit (`scripts/contamination_audit.py`).
+  Key result: zero exact matches and <5% max 8-gram overlap between the training
+  set and both benchmarks (PIArena contexts/injections, AgentDyn tool
+  outputs/payloads). Local synthetic splits are base_id-disjoint from training;
+  ~7% of their documents have verbatim duplicates in training inherited from
+  source-corpus duplication, and the injection template pool is shared by
+  design — local splits measure in-distribution accuracy, the benchmarks
+  measure generalization.
 - `local_token_eval.csv` — token-level metrics per held-out split
 - `local-eval/` — checkpoint-verification eval outputs (local-only, gitignored)
 - `training_data_summary.csv` — training set composition
