@@ -34,9 +34,30 @@ Legend: ✓ reproducible from this repo, ⚠ chain exists but needs a final step
 ## Model
 
 - Paper checkpoint: HF `Shi-lab/PITagger` (`scripts/download_checkpoint.sh`).
-  Verified 2026-07-03: all 10 local token-eval splits match
-  `results/local_token_eval.csv` to 4 decimals; PIArena Direct macro mean
-  ASR 6.38 / utility 73.31 reproduced from the archived raw eval outputs.
+  Verified 2026-07-03: the downloaded weights are byte-identical to the paper
+  runs (checkpoint fingerprint `89810d4f66b9…` over the six model files); all
+  10 local token-eval splits match `results/local_token_eval.csv` to 4
+  decimals; PIArena Direct macro mean ASR 6.38 / utility 73.31 reproduced
+  from the archived raw eval outputs.
+
+## Running the full AgentDyn evaluation (DeepSeek API)
+
+The chain is smoke-tested end to end (one benign shopping task ran clean on
+2026-07-03). The full paper configuration costs DeepSeek API credits
+(~620 trajectories: 60 benign + 560 attacked):
+
+```bash
+export DEEPSEEK_API_KEY=...
+# LOGDIR keeps verification reruns separate from the archived paper runs —
+# with the paper checkpoint they would otherwise write into the same run
+# directory (same fingerprint) and overwrite the archived trajectories.
+LOGDIR=runs-rerun bash scripts/eval_agentdyn.sh    # MinSpan, Flash, 3 dynamic suites
+# all seven suites (paper appendix numbers):
+LOGDIR=runs-rerun SUITES="shopping github dailylife banking slack travel workspace" \
+  bash scripts/eval_agentdyn.sh
+# then regenerate the tables (point the collector at the rerun directory):
+python scripts/collect_agentdyn.py --runs benchmarks/agentdyn/runs-rerun
+```
 - Training: `scripts/train.sh` (config in `minspan/train.py`); dataset
   construction: `minspan/build_training_data.py` (see `data/README.md`).
 

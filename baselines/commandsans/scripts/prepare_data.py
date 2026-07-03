@@ -17,24 +17,39 @@ from pathlib import Path
 from datasets import load_dataset
 
 
+BFCL_REPO = "gorilla-llm/Berkeley-Function-Calling-Leaderboard"
+BFCL_FILES = (
+    "BFCL_v3_multi_turn_base.json",
+    "BFCL_v3_multi_turn_composite.json",
+    "BFCL_v3_multi_turn_long_context.json",
+    "BFCL_v3_live_multiple.json",
+    "BFCL_v3_live_simple.json",
+)
+
+
 def bfcl_texts(limit: int, seed: int) -> list[str]:
-    """BFCL v3 multi-turn: concatenate the textual content of each entry's turns."""
-    dataset = load_dataset("gorilla-llm/Berkeley-Function-Calling-Leaderboard", split="train")
+    """BFCL v3: concatenate the textual content of each entry's question turns."""
+    from huggingface_hub import hf_hub_download
+
     texts = []
-    for row in dataset:
-        question = row.get("question")
-        parts: list[str] = []
-        if isinstance(question, list):
-            for turn in question:
-                if isinstance(turn, list):
-                    parts.extend(str(m.get("content", "")) for m in turn if isinstance(m, dict))
-                elif isinstance(turn, dict):
-                    parts.append(str(turn.get("content", "")))
-        elif question:
-            parts.append(str(question))
-        text = "\n".join(p for p in parts if p.strip())
-        if text.strip():
-            texts.append(text)
+    for filename in BFCL_FILES:
+        path = hf_hub_download(BFCL_REPO, filename, repo_type="dataset")
+        with open(path) as fh:
+            for line in fh:  # the repo stores JSON Lines despite the .json suffix
+                row = json.loads(line)
+                question = row.get("question")
+                parts: list[str] = []
+                if isinstance(question, list):
+                    for turn in question:
+                        if isinstance(turn, list):
+                            parts.extend(str(m.get("content", "")) for m in turn if isinstance(m, dict))
+                        elif isinstance(turn, dict):
+                            parts.append(str(turn.get("content", "")))
+                elif question:
+                    parts.append(str(question))
+                text = "\n".join(p for p in parts if p.strip())
+                if text.strip():
+                    texts.append(text)
     random.Random(seed).shuffle(texts)
     return texts[:limit]
 

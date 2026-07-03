@@ -14,4 +14,8 @@ else
   echo "ERROR: install huggingface_hub (pip install -U huggingface_hub)" >&2
   exit 2
 fi
+
+# drop HF metadata so the checkpoint fingerprints exactly as the paper runs
+# (sha256 89810d4f66b9... over the six model files)
+rm -rf "$DEST/.cache" "$DEST/README.md" "$DEST/.gitattributes"
 echo "Checkpoint ready at $DEST"

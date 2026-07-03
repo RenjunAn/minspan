@@ -323,13 +323,16 @@ def write_csv(path: Path, header: list[str], rows: list[list]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--runs", type=Path, default=RUNS)
-    parser.parse_args()
+    args = parser.parse_args()
 
     # ---- our runs -> (model, defense) -> case records
+    # any run dir missing under --runs falls back to the archived paper runs
     our_cases: dict[tuple[str, str], list[dict]] = {}
     for model in OUR_MODELS:
         for defense in ("none", *OUR_DEFENSES):
-            run_dir = RUNS / (model if defense == "none" else f"{model}-{defense}")
+            run_dir = args.runs / (model if defense == "none" else f"{model}-{defense}")
+            if not run_dir.is_dir():
+                run_dir = RUNS / (model if defense == "none" else f"{model}-{defense}")
             if not run_dir.is_dir():
                 continue
             key = "minspan" if defense.startswith(f"modernbert_tagger-{MINSPAN_FINGERPRINT}") else defense

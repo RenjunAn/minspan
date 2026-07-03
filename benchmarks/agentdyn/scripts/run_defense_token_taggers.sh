@@ -17,7 +17,7 @@ RUN_LOG="${RUN_LOG:-$LOGDIR/logs/token_taggers.log}"
 FORCE_RERUN="${FORCE_RERUN:-1}"
 ALLOW_TAGGER_FAILURES="${ALLOW_TAGGER_FAILURES:-0}"
 read -r -a DEFENSE_LIST <<< "${DEFENSES:-modernbert_tagger datafilter_bidir_tagger}"
-read -r -a AGENT_LIST <<< "${AGENTS:-deepseek-v4-flash}"
+read -r -a AGENT_LIST <<< "${AGENTS:-DEEPSEEK_V4_FLASH}"
 read -r -a SUITE_LIST <<< "${SUITES:-shopping github dailylife}"
 read -r -a ATTACK_LIST <<< "${ATTACKS:-none important_instructions}"
 if [ "${UV_RUN_FLAGS+x}" = "x" ]; then
