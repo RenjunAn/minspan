@@ -1,0 +1,1465 @@
+model,model_paper,defense,defense_paper,metric,suite,value_pct,value_raw
+gpt-4o-mini,GPT-4o mini,none,None,benign_utility,overall,46.67,46.67
+gpt-4o-mini,GPT-4o mini,none,None,benign_utility,shopping,35.0,35.00
+gpt-4o-mini,GPT-4o mini,none,None,benign_utility,github,65.0,65.00
+gpt-4o-mini,GPT-4o mini,none,None,benign_utility,dailylife,40.0,40.00
+gpt-4o,GPT-4o,none,None,benign_utility,overall,53.33,53.33
+gpt-4o,GPT-4o,none,None,benign_utility,shopping,50.0,50.00
+gpt-4o,GPT-4o,none,None,benign_utility,github,55.0,55.00
+gpt-4o,GPT-4o,none,None,benign_utility,dailylife,55.0,55.00
+gpt-5.1,GPT-5.1,none,None,benign_utility,overall,61.67,61.67
+gpt-5.1,GPT-5.1,none,None,benign_utility,shopping,45.0,45.00
+gpt-5.1,GPT-5.1,none,None,benign_utility,github,75.0,75.00
+gpt-5.1,GPT-5.1,none,None,benign_utility,dailylife,65.0,65.00
+gpt-5-mini,GPT-5-mini,none,None,benign_utility,overall,65.0,65.00
+gpt-5-mini,GPT-5-mini,none,None,benign_utility,shopping,45.0,45.00
+gpt-5-mini,GPT-5-mini,none,None,benign_utility,github,70.0,70.00
+gpt-5-mini,GPT-5-mini,none,None,benign_utility,dailylife,80.0,80.00
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,benign_utility,overall,51.67,51.67
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,benign_utility,shopping,35.0,35.00
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,benign_utility,github,70.0,70.00
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,benign_utility,dailylife,50.0,50.00
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,benign_utility,overall,30.0,30.00
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,benign_utility,shopping,10.0,10.00
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,benign_utility,github,25.0,25.00
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,benign_utility,dailylife,55.0,55.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,benign_utility,overall,60.0,60.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,benign_utility,shopping,45.0,45.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,benign_utility,github,70.0,70.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,benign_utility,dailylife,65.0,65.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,benign_utility,overall,71.67,71.67
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,benign_utility,shopping,55.0,55.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,benign_utility,github,70.0,70.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,benign_utility,dailylife,90.0,90.00
+qwen3-235b,Qwen3 235B-A22B,none,None,benign_utility,overall,23.33,23.33
+qwen3-235b,Qwen3 235B-A22B,none,None,benign_utility,shopping,5.0,5.00
+qwen3-235b,Qwen3 235B-A22B,none,None,benign_utility,github,20.0,20.00
+qwen3-235b,Qwen3 235B-A22B,none,None,benign_utility,dailylife,45.0,45.00
+llama-3.3-70b,Llama 3.3 70B,none,None,benign_utility,overall,10.0,10.00
+llama-3.3-70b,Llama 3.3 70B,none,None,benign_utility,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,none,None,benign_utility,github,10.0,10.00
+llama-3.3-70b,Llama 3.3 70B,none,None,benign_utility,dailylife,20.0,20.00
+qwen3-coder,Qwen3-Coder,none,None,benign_utility,overall,18.33,18.33
+qwen3-coder,Qwen3-Coder,none,None,benign_utility,shopping,5.0,5.00
+qwen3-coder,Qwen3-Coder,none,None,benign_utility,github,25.0,25.00
+qwen3-coder,Qwen3-Coder,none,None,benign_utility,dailylife,25.0,25.00
+kimi-k2.5,Kimi-K2.5,none,None,benign_utility,overall,71.67,71.67
+kimi-k2.5,Kimi-K2.5,none,None,benign_utility,shopping,55.0,55.00
+kimi-k2.5,Kimi-K2.5,none,None,benign_utility,github,70.0,70.00
+kimi-k2.5,Kimi-K2.5,none,None,benign_utility,dailylife,90.0,90.00
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,43.33,43.33
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,35.0,35.00
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,50.0,50.00
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,45.0,45.00
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,63.33,63.33
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,50.0,50.00
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,75.0,75.00
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,65.0,65.00
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,58.33,58.33
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,45.0,45.00
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,65.0,65.00
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,65.0,65.00
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,73.33,73.33
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,60.0,60.00
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,75.0,75.00
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,85.0,85.00
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,51.67,51.67
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,35.0,35.00
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,55.0,55.00
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,65.0,65.00
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,16.67,16.67
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,10.0,10.00
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,20.0,20.00
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,20.0,20.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,56.67,56.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,40.0,40.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,65.0,65.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,65.0,65.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,70.0,70.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,55.0,55.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,70.0,70.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,85.0,85.00
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,16.67,16.67
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,5.0,5.00
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,15.0,15.00
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,30.0,30.00
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,10.0,10.00
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,23.33,23.33
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,30.0,30.00
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,40.0,40.00
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,overall,56.67,56.67
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,shopping,25.0,25.00
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,github,70.0,70.00
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,benign_utility,dailylife,75.0,75.00
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,38.33,38.33
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,25.0,25.00
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,benign_utility,github,50.0,50.00
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,40.0,40.00
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,55.0,55.00
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,40.0,40.00
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,benign_utility,github,65.0,65.00
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,60.0,60.00
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,56.67,56.67
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,45.0,45.00
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,benign_utility,github,70.0,70.00
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,55.0,55.00
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,68.33,68.33
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,60.0,60.00
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,benign_utility,github,65.0,65.00
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,80.0,80.00
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,58.33,58.33
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,35.0,35.00
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,benign_utility,github,75.0,75.00
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,65.0,65.00
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,13.33,13.33
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,benign_utility,github,15.0,15.00
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,25.0,25.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,58.33,58.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,40.0,40.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,benign_utility,github,70.0,70.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,65.0,65.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,68.33,68.33
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,55.0,55.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,benign_utility,github,65.0,65.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,85.0,85.00
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,20.0,20.00
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,5.0,5.00
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,benign_utility,github,15.0,15.00
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,40.0,40.00
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,10.0,10.00
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,benign_utility,github,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,25.0,25.00
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,16.67,16.67
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,benign_utility,github,25.0,25.00
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,25.0,25.00
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,benign_utility,overall,36.67,36.67
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,benign_utility,shopping,15.0,15.00
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,benign_utility,github,50.0,50.00
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,benign_utility,dailylife,45.0,45.00
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,benign_utility,overall,1.67,1.67
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,benign_utility,github,5.0,5.00
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,benign_utility,overall,0.0,0.00
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,benign_utility,github,0.0,0.00
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,benign_utility,overall,1.67,1.67
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,benign_utility,github,5.0,5.00
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,benign_utility,overall,1.67,1.67
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,benign_utility,github,5.0,5.00
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,benign_utility,overall,1.67,1.67
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,benign_utility,github,5.0,5.00
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,benign_utility,overall,1.67,1.67
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,benign_utility,github,5.0,5.00
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,benign_utility,overall,1.67,1.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,benign_utility,github,5.0,5.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,benign_utility,overall,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,benign_utility,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,benign_utility,overall,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,benign_utility,github,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,benign_utility,overall,1.67,1.67
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,benign_utility,github,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,benign_utility,overall,1.67,1.67
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,benign_utility,github,5.0,5.00
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,benign_utility,overall,1.67,1.67
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,benign_utility,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,benign_utility,github,5.0,5.00
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,benign_utility,dailylife,0.0,0.00
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,benign_utility,overall,16.67,16.67
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,benign_utility,shopping,20.0,20.00
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,benign_utility,github,20.0,20.00
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,benign_utility,dailylife,10.0,10.00
+gpt-4o,GPT-4o,piguard_detector,PIGuard,benign_utility,overall,10.0,10.00
+gpt-4o,GPT-4o,piguard_detector,PIGuard,benign_utility,shopping,5.0,5.00
+gpt-4o,GPT-4o,piguard_detector,PIGuard,benign_utility,github,10.0,10.00
+gpt-4o,GPT-4o,piguard_detector,PIGuard,benign_utility,dailylife,15.0,15.00
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,benign_utility,overall,11.67,11.67
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,benign_utility,shopping,5.0,5.00
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,benign_utility,github,5.0,5.00
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,benign_utility,dailylife,25.0,25.00
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,benign_utility,overall,18.33,18.33
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,benign_utility,shopping,25.0,25.00
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,benign_utility,github,10.0,10.00
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,benign_utility,dailylife,20.0,20.00
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,benign_utility,overall,11.67,11.67
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,benign_utility,shopping,5.0,5.00
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,benign_utility,github,15.0,15.00
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,benign_utility,dailylife,15.0,15.00
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,benign_utility,overall,8.33,8.33
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,benign_utility,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,benign_utility,github,5.0,5.00
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,benign_utility,dailylife,20.0,20.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,benign_utility,overall,11.67,11.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,benign_utility,shopping,5.0,5.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,benign_utility,github,10.0,10.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,benign_utility,dailylife,20.0,20.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,benign_utility,overall,13.33,13.33
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,benign_utility,shopping,5.0,5.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,benign_utility,github,10.0,10.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,benign_utility,dailylife,25.0,25.00
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,benign_utility,overall,1.67,1.67
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,benign_utility,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,benign_utility,github,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,benign_utility,dailylife,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,benign_utility,overall,3.33,3.33
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,benign_utility,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,benign_utility,github,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,benign_utility,dailylife,10.0,10.00
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,benign_utility,overall,6.67,6.67
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,benign_utility,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,benign_utility,github,5.0,5.00
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,benign_utility,dailylife,15.0,15.00
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,benign_utility,overall,8.33,8.33
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,benign_utility,shopping,5.0,5.00
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,benign_utility,github,10.0,10.00
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,benign_utility,dailylife,10.0,10.00
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,30.0,30.00
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,30.0,30.00
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,benign_utility,github,20.0,20.00
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,40.0,40.00
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,60.0,60.00
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,50.0,50.00
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,benign_utility,github,70.0,70.00
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,60.0,60.00
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,55.0,55.00
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,30.0,30.00
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,benign_utility,github,70.0,70.00
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,65.0,65.00
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,65.0,65.00
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,40.0,40.00
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,benign_utility,github,75.0,75.00
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,80.0,80.00
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,58.33,58.33
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,45.0,45.00
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,benign_utility,github,75.0,75.00
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,55.0,55.00
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,26.67,26.67
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,10.0,10.00
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,benign_utility,github,25.0,25.00
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,45.0,45.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,56.67,56.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,45.0,45.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,benign_utility,github,70.0,70.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,55.0,55.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,70.0,70.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,50.0,50.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,benign_utility,github,70.0,70.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,90.0,90.00
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,15.0,15.00
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,5.0,5.00
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,benign_utility,github,10.0,10.00
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,30.0,30.00
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,8.33,8.33
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,benign_utility,github,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,20.0,20.00
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,23.33,23.33
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,benign_utility,github,30.0,30.00
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,40.0,40.00
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,benign_utility,overall,48.33,48.33
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,benign_utility,shopping,20.0,20.00
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,benign_utility,github,70.0,70.00
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,benign_utility,dailylife,55.0,55.00
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,benign_utility,overall,5.0,5.00
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,benign_utility,shopping,0.0,0.00
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,benign_utility,github,15.0,15.00
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,benign_utility,dailylife,0.0,0.00
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,benign_utility,overall,55.0,55.00
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,benign_utility,shopping,40.0,40.00
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,benign_utility,github,55.0,55.00
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,benign_utility,dailylife,70.0,70.00
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,benign_utility,overall,6.67,6.67
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,benign_utility,github,10.0,10.00
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,benign_utility,dailylife,10.0,10.00
+gpt-4o,GPT-4o,tool_filter,Tool Filter,benign_utility,overall,8.33,8.33
+gpt-4o,GPT-4o,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+gpt-4o,GPT-4o,tool_filter,Tool Filter,benign_utility,github,15.0,15.00
+gpt-4o,GPT-4o,tool_filter,Tool Filter,benign_utility,dailylife,10.0,10.00
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,benign_utility,overall,1.67,1.67
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,benign_utility,github,0.0,0.00
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,benign_utility,dailylife,5.0,5.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,benign_utility,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,benign_utility,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,benign_utility,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,benign_utility,overall,1.67,1.67
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,benign_utility,github,5.0,5.00
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,benign_utility,dailylife,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,benign_utility,overall,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,benign_utility,github,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,benign_utility,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,benign_utility,overall,1.67,1.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,benign_utility,github,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,benign_utility,dailylife,5.0,5.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,benign_utility,overall,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,benign_utility,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,benign_utility,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,benign_utility,overall,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,benign_utility,github,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,benign_utility,dailylife,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,benign_utility,overall,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,benign_utility,github,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,benign_utility,dailylife,15.0,15.00
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,benign_utility,overall,5.0,5.00
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,benign_utility,github,5.0,5.00
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,benign_utility,dailylife,10.0,10.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,benign_utility,overall,0.0,0.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,benign_utility,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,benign_utility,github,0.0,0.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,benign_utility,dailylife,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,benign_utility,overall,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,benign_utility,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,benign_utility,github,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,benign_utility,overall,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,benign_utility,shopping,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,benign_utility,github,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,benign_utility,overall,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,benign_utility,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,benign_utility,github,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,benign_utility,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,benign_utility,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,benign_utility,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,benign_utility,overall,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,benign_utility,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,benign_utility,github,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,benign_utility,overall,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,benign_utility,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,benign_utility,github,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,benign_utility,overall,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,benign_utility,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,benign_utility,github,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,benign_utility,overall,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,benign_utility,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,benign_utility,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,benign_utility,overall,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,benign_utility,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,benign_utility,github,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,benign_utility,overall,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,benign_utility,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,benign_utility,github,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,benign_utility,overall,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,benign_utility,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,benign_utility,github,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,benign_utility,overall,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,benign_utility,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,benign_utility,github,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,benign_utility,dailylife,0.0,0.00
+gpt-4o-mini,GPT-4o mini,progent,Progent,benign_utility,overall,6.67,6.67
+gpt-4o-mini,GPT-4o mini,progent,Progent,benign_utility,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,progent,Progent,benign_utility,github,15.0,15.00
+gpt-4o-mini,GPT-4o mini,progent,Progent,benign_utility,dailylife,5.0,5.00
+gpt-4o,GPT-4o,progent,Progent,benign_utility,overall,6.67,6.67
+gpt-4o,GPT-4o,progent,Progent,benign_utility,shopping,0.0,0.00
+gpt-4o,GPT-4o,progent,Progent,benign_utility,github,15.0,15.00
+gpt-4o,GPT-4o,progent,Progent,benign_utility,dailylife,5.0,5.00
+gpt-5.1,GPT-5.1,progent,Progent,benign_utility,overall,15.0,15.00
+gpt-5.1,GPT-5.1,progent,Progent,benign_utility,shopping,5.0,5.00
+gpt-5.1,GPT-5.1,progent,Progent,benign_utility,github,25.0,25.00
+gpt-5.1,GPT-5.1,progent,Progent,benign_utility,dailylife,15.0,15.00
+gpt-5-mini,GPT-5-mini,progent,Progent,benign_utility,overall,23.33,23.33
+gpt-5-mini,GPT-5-mini,progent,Progent,benign_utility,shopping,5.0,5.00
+gpt-5-mini,GPT-5-mini,progent,Progent,benign_utility,github,35.0,35.00
+gpt-5-mini,GPT-5-mini,progent,Progent,benign_utility,dailylife,30.0,30.00
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,benign_utility,overall,25.0,25.00
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,benign_utility,shopping,20.0,20.00
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,benign_utility,github,30.0,30.00
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,benign_utility,dailylife,25.0,25.00
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,benign_utility,overall,1.67,1.67
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,benign_utility,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,benign_utility,github,5.0,5.00
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,benign_utility,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,benign_utility,overall,13.33,13.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,benign_utility,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,benign_utility,github,25.0,25.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,benign_utility,dailylife,15.0,15.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,benign_utility,overall,16.67,16.67
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,benign_utility,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,benign_utility,github,25.0,25.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,benign_utility,dailylife,25.0,25.00
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,benign_utility,overall,8.33,8.33
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,benign_utility,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,benign_utility,github,5.0,5.00
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,benign_utility,dailylife,20.0,20.00
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,benign_utility,overall,3.33,3.33
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,benign_utility,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,benign_utility,github,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,benign_utility,dailylife,5.0,5.00
+qwen3-coder,Qwen3-Coder,progent,Progent,benign_utility,overall,11.67,11.67
+qwen3-coder,Qwen3-Coder,progent,Progent,benign_utility,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,progent,Progent,benign_utility,github,30.0,30.00
+qwen3-coder,Qwen3-Coder,progent,Progent,benign_utility,dailylife,5.0,5.00
+kimi-k2.5,Kimi-K2.5,progent,Progent,benign_utility,overall,28.33,28.33
+kimi-k2.5,Kimi-K2.5,progent,Progent,benign_utility,shopping,5.0,5.00
+kimi-k2.5,Kimi-K2.5,progent,Progent,benign_utility,github,40.0,40.00
+kimi-k2.5,Kimi-K2.5,progent,Progent,benign_utility,dailylife,40.0,40.00
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,benign_utility,overall,18.33,18.33
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,benign_utility,shopping,10.0,10.00
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,benign_utility,github,35.0,35.00
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,benign_utility,dailylife,10.0,10.00
+gpt-4o,GPT-4o,drift,DRIFT,benign_utility,overall,30.0,30.00
+gpt-4o,GPT-4o,drift,DRIFT,benign_utility,shopping,15.0,15.00
+gpt-4o,GPT-4o,drift,DRIFT,benign_utility,github,40.0,40.00
+gpt-4o,GPT-4o,drift,DRIFT,benign_utility,dailylife,35.0,35.00
+gpt-5.1,GPT-5.1,drift,DRIFT,benign_utility,overall,1.67,1.67
+gpt-5.1,GPT-5.1,drift,DRIFT,benign_utility,shopping,5.0,5.00
+gpt-5.1,GPT-5.1,drift,DRIFT,benign_utility,github,0.0,0.00
+gpt-5.1,GPT-5.1,drift,DRIFT,benign_utility,dailylife,0.0,0.00
+gpt-5-mini,GPT-5-mini,drift,DRIFT,benign_utility,overall,10.0,10.00
+gpt-5-mini,GPT-5-mini,drift,DRIFT,benign_utility,shopping,10.0,10.00
+gpt-5-mini,GPT-5-mini,drift,DRIFT,benign_utility,github,10.0,10.00
+gpt-5-mini,GPT-5-mini,drift,DRIFT,benign_utility,dailylife,10.0,10.00
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,benign_utility,overall,36.67,36.67
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,benign_utility,shopping,30.0,30.00
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,benign_utility,github,45.0,45.00
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,benign_utility,dailylife,35.0,35.00
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,benign_utility,overall,18.33,18.33
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,benign_utility,shopping,10.0,10.00
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,benign_utility,github,25.0,25.00
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,benign_utility,dailylife,20.0,20.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,benign_utility,overall,33.33,33.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,benign_utility,shopping,15.0,15.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,benign_utility,github,35.0,35.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,benign_utility,dailylife,50.0,50.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,benign_utility,overall,28.33,28.33
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,benign_utility,shopping,5.0,5.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,benign_utility,github,40.0,40.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,benign_utility,dailylife,40.0,40.00
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,benign_utility,overall,36.67,36.67
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,benign_utility,shopping,25.0,25.00
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,benign_utility,github,50.0,50.00
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,benign_utility,dailylife,35.0,35.00
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,benign_utility,overall,11.67,11.67
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,benign_utility,shopping,10.0,10.00
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,benign_utility,github,20.0,20.00
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,benign_utility,dailylife,5.0,5.00
+qwen3-coder,Qwen3-Coder,drift,DRIFT,benign_utility,overall,20.0,20.00
+qwen3-coder,Qwen3-Coder,drift,DRIFT,benign_utility,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,drift,DRIFT,benign_utility,github,40.0,40.00
+qwen3-coder,Qwen3-Coder,drift,DRIFT,benign_utility,dailylife,20.0,20.00
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,benign_utility,overall,20.0,20.00
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,benign_utility,shopping,5.0,5.00
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,benign_utility,github,35.0,35.00
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,benign_utility,dailylife,20.0,20.00
+gpt-4o-mini,GPT-4o mini,none,None,utility_under_attack,overall,35.69,35.69
+gpt-4o-mini,GPT-4o mini,none,None,utility_under_attack,shopping,35.0,35.00
+gpt-4o-mini,GPT-4o mini,none,None,utility_under_attack,github,45.56,45.56
+gpt-4o-mini,GPT-4o mini,none,None,utility_under_attack,dailylife,26.5,26.50
+gpt-4o,GPT-4o,none,None,utility_under_attack,overall,55.52,55.52
+gpt-4o,GPT-4o,none,None,utility_under_attack,shopping,48.89,48.89
+gpt-4o,GPT-4o,none,None,utility_under_attack,github,66.67,66.67
+gpt-4o,GPT-4o,none,None,utility_under_attack,dailylife,51.0,51.00
+gpt-5.1,GPT-5.1,none,None,utility_under_attack,overall,50.04,50.04
+gpt-5.1,GPT-5.1,none,None,utility_under_attack,shopping,34.44,34.44
+gpt-5.1,GPT-5.1,none,None,utility_under_attack,github,66.67,66.67
+gpt-5.1,GPT-5.1,none,None,utility_under_attack,dailylife,49.0,49.00
+gpt-5-mini,GPT-5-mini,none,None,utility_under_attack,overall,64.76,64.76
+gpt-5-mini,GPT-5-mini,none,None,utility_under_attack,shopping,48.89,48.89
+gpt-5-mini,GPT-5-mini,none,None,utility_under_attack,github,73.89,73.89
+gpt-5-mini,GPT-5-mini,none,None,utility_under_attack,dailylife,71.5,71.50
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,utility_under_attack,overall,56.95,56.95
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,utility_under_attack,shopping,41.67,41.67
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,utility_under_attack,github,71.67,71.67
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,utility_under_attack,dailylife,57.5,57.50
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,utility_under_attack,overall,24.29,24.29
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,utility_under_attack,shopping,4.44,4.44
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,utility_under_attack,github,29.44,29.44
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,utility_under_attack,dailylife,39.0,39.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,utility_under_attack,overall,55.43,55.43
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,utility_under_attack,shopping,46.11,46.11
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,utility_under_attack,github,66.67,66.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,utility_under_attack,dailylife,53.5,53.50
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,utility_under_attack,overall,70.74,70.74
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,utility_under_attack,shopping,53.89,53.89
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,utility_under_attack,github,73.33,73.33
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,utility_under_attack,dailylife,85.0,85.00
+qwen3-235b,Qwen3 235B-A22B,none,None,utility_under_attack,overall,10.74,10.74
+qwen3-235b,Qwen3 235B-A22B,none,None,utility_under_attack,shopping,0.56,0.56
+qwen3-235b,Qwen3 235B-A22B,none,None,utility_under_attack,github,11.67,11.67
+qwen3-235b,Qwen3 235B-A22B,none,None,utility_under_attack,dailylife,20.0,20.00
+llama-3.3-70b,Llama 3.3 70B,none,None,utility_under_attack,overall,6.15,6.15
+llama-3.3-70b,Llama 3.3 70B,none,None,utility_under_attack,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,none,None,utility_under_attack,github,4.44,4.44
+llama-3.3-70b,Llama 3.3 70B,none,None,utility_under_attack,dailylife,14.0,14.00
+qwen3-coder,Qwen3-Coder,none,None,utility_under_attack,overall,15.76,15.76
+qwen3-coder,Qwen3-Coder,none,None,utility_under_attack,shopping,3.33,3.33
+qwen3-coder,Qwen3-Coder,none,None,utility_under_attack,github,24.44,24.44
+qwen3-coder,Qwen3-Coder,none,None,utility_under_attack,dailylife,19.5,19.50
+kimi-k2.5,Kimi-K2.5,none,None,utility_under_attack,overall,54.17,54.17
+kimi-k2.5,Kimi-K2.5,none,None,utility_under_attack,shopping,42.22,42.22
+kimi-k2.5,Kimi-K2.5,none,None,utility_under_attack,github,62.78,62.78
+kimi-k2.5,Kimi-K2.5,none,None,utility_under_attack,dailylife,57.5,57.50
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,37.78,37.78
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,34.44,34.44
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,48.89,48.89
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,30.0,30.00
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,56.13,56.13
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,46.67,46.67
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,67.22,67.22
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,54.5,54.50
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,53.78,53.78
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,40.0,40.00
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,63.33,63.33
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,58.0,58.00
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,65.22,65.22
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,48.33,48.33
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,73.33,73.33
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,74.0,74.00
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,49.08,49.08
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,35.56,35.56
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,61.67,61.67
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,50.0,50.00
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,14.33,14.33
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,7.22,7.22
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,17.78,17.78
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,18.0,18.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,55.67,55.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,43.33,43.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,66.67,66.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,57.0,57.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,74.07,74.07
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,58.33,58.33
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,78.89,78.89
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,85.0,85.00
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,14.82,14.82
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,3.89,3.89
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,15.56,15.56
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,25.0,25.00
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,7.35,7.35
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,5.56,5.56
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,16.5,16.50
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,16.63,16.63
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,2.22,2.22
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,26.67,26.67
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,21.0,21.00
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,overall,54.13,54.13
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,shopping,43.89,43.89
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,github,65.0,65.00
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,utility_under_attack,dailylife,53.5,53.50
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,35.78,35.78
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,28.89,28.89
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,49.44,49.44
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,29.0,29.00
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,52.24,52.24
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,43.89,43.89
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,63.33,63.33
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,49.5,49.50
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,50.06,50.06
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,31.11,31.11
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,65.56,65.56
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,53.5,53.50
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,61.13,61.13
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,45.56,45.56
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,68.33,68.33
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,69.5,69.50
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,52.61,52.61
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,37.78,37.78
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,65.56,65.56
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,54.5,54.50
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,12.5,12.50
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,1.11,1.11
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,13.89,13.89
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,22.5,22.50
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,58.33,58.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,44.44,44.44
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,68.33,68.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,58.5,58.50
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,68.33,68.33
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,53.89,53.89
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,72.78,72.78
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,80.0,80.00
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,13.02,13.02
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,2.78,2.78
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,12.78,12.78
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,23.5,23.50
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,6.78,6.78
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,3.33,3.33
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,17.0,17.00
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,16.15,16.15
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,3.89,3.89
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,30.56,30.56
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,14.0,14.00
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,overall,53.5,53.50
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,shopping,38.89,38.89
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,github,66.11,66.11
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,utility_under_attack,dailylife,55.5,55.50
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,utility_under_attack,overall,0.93,0.93
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,utility_under_attack,github,2.78,2.78
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,utility_under_attack,overall,0.56,0.56
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,utility_under_attack,github,1.67,1.67
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,utility_under_attack,overall,0.56,0.56
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,utility_under_attack,github,1.67,1.67
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,utility_under_attack,overall,0.93,0.93
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,utility_under_attack,github,2.78,2.78
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,utility_under_attack,overall,0.74,0.74
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,utility_under_attack,github,2.22,2.22
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,utility_under_attack,overall,0.19,0.19
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,utility_under_attack,github,0.56,0.56
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,utility_under_attack,overall,1.11,1.11
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,utility_under_attack,github,3.33,3.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,utility_under_attack,overall,1.11,1.11
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,utility_under_attack,github,3.33,3.33
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,utility_under_attack,overall,0.74,0.74
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,utility_under_attack,github,2.22,2.22
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,utility_under_attack,overall,1.11,1.11
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,utility_under_attack,github,3.33,3.33
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,utility_under_attack,overall,0.74,0.74
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,utility_under_attack,github,2.22,2.22
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,utility_under_attack,overall,0.37,0.37
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,utility_under_attack,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,utility_under_attack,github,1.11,1.11
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,utility_under_attack,dailylife,0.0,0.00
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,utility_under_attack,overall,3.26,3.26
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,utility_under_attack,shopping,3.89,3.89
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,utility_under_attack,github,3.89,3.89
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,utility_under_attack,dailylife,2.0,2.00
+gpt-4o,GPT-4o,piguard_detector,PIGuard,utility_under_attack,overall,1.46,1.46
+gpt-4o,GPT-4o,piguard_detector,PIGuard,utility_under_attack,shopping,2.78,2.78
+gpt-4o,GPT-4o,piguard_detector,PIGuard,utility_under_attack,github,1.11,1.11
+gpt-4o,GPT-4o,piguard_detector,PIGuard,utility_under_attack,dailylife,0.5,0.50
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,utility_under_attack,overall,2.72,2.72
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,utility_under_attack,shopping,2.22,2.22
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,utility_under_attack,github,4.44,4.44
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,utility_under_attack,dailylife,1.5,1.50
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,utility_under_attack,overall,7.35,7.35
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,utility_under_attack,shopping,7.78,7.78
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,utility_under_attack,github,12.78,12.78
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,utility_under_attack,dailylife,1.5,1.50
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,utility_under_attack,overall,2.17,2.17
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,utility_under_attack,shopping,2.22,2.22
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,utility_under_attack,github,2.78,2.78
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,utility_under_attack,dailylife,1.5,1.50
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,utility_under_attack,overall,1.83,1.83
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,utility_under_attack,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,utility_under_attack,github,5.0,5.00
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,utility_under_attack,dailylife,0.5,0.50
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,utility_under_attack,overall,2.93,2.93
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,utility_under_attack,shopping,0.56,0.56
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,utility_under_attack,github,7.22,7.22
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,utility_under_attack,dailylife,1.0,1.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,utility_under_attack,overall,2.17,2.17
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,utility_under_attack,shopping,5.0,5.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,utility_under_attack,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,utility_under_attack,dailylife,1.5,1.50
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,utility_under_attack,overall,0.7,0.70
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,utility_under_attack,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,utility_under_attack,github,1.1,1.10
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,utility_under_attack,dailylife,1.0,1.00
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,utility_under_attack,overall,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,utility_under_attack,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,utility_under_attack,github,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,utility_under_attack,dailylife,0.0,0.00
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,utility_under_attack,overall,0.52,0.52
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,utility_under_attack,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,utility_under_attack,github,0.56,0.56
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,utility_under_attack,dailylife,1.0,1.00
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,utility_under_attack,overall,4.57,4.57
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,utility_under_attack,shopping,8.89,8.89
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,utility_under_attack,github,3.33,3.33
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,utility_under_attack,dailylife,1.5,1.50
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,13.7,13.70
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,12.22,12.22
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,3.89,3.89
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,25.0,25.00
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,20.8,20.80
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,6.11,6.11
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,17.78,17.78
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,38.5,38.50
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,22.26,22.26
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,7.22,7.22
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,15.56,15.56
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,44.0,44.00
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,33.92,33.92
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,19.44,19.44
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,18.33,18.33
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,64.0,64.00
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,17.18,17.18
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,4.44,4.44
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,6.11,6.11
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,41.0,41.00
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,11.19,11.19
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,5.56,5.56
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,28.0,28.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,27.69,27.69
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,30.0,30.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,10.56,10.56
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,42.5,42.50
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,41.37,41.37
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,39.44,39.44
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,6.67,6.67
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,78.0,78.00
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,10.5,10.50
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,2.78,2.78
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,7.22,7.22
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,21.5,21.50
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,6.44,6.44
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,3.33,3.33
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,16.0,16.00
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,8.13,8.13
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,0.56,0.56
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,8.33,8.33
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,15.5,15.50
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,overall,30.15,30.15
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,shopping,26.67,26.67
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,github,12.78,12.78
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,utility_under_attack,dailylife,51.0,51.00
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,utility_under_attack,overall,7.22,7.22
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,utility_under_attack,shopping,0.0,0.00
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,utility_under_attack,github,11.67,11.67
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,utility_under_attack,dailylife,10.0,10.00
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,utility_under_attack,overall,53.35,53.35
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,utility_under_attack,shopping,41.67,41.67
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,utility_under_attack,github,48.89,48.89
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,utility_under_attack,dailylife,69.5,69.50
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,utility_under_attack,overall,4.8,4.80
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,utility_under_attack,github,8.89,8.89
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,utility_under_attack,dailylife,5.5,5.50
+gpt-4o,GPT-4o,tool_filter,Tool Filter,utility_under_attack,overall,4.91,4.91
+gpt-4o,GPT-4o,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+gpt-4o,GPT-4o,tool_filter,Tool Filter,utility_under_attack,github,7.22,7.22
+gpt-4o,GPT-4o,tool_filter,Tool Filter,utility_under_attack,dailylife,7.5,7.50
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,utility_under_attack,overall,3.67,3.67
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,utility_under_attack,github,10.0,10.00
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,utility_under_attack,dailylife,1.0,1.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,utility_under_attack,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,utility_under_attack,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,utility_under_attack,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,utility_under_attack,overall,0.93,0.93
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,utility_under_attack,github,2.78,2.78
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,utility_under_attack,dailylife,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,utility_under_attack,overall,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,utility_under_attack,github,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,utility_under_attack,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,utility_under_attack,overall,0.5,0.50
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,utility_under_attack,github,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,utility_under_attack,dailylife,1.5,1.50
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,utility_under_attack,overall,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,utility_under_attack,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,utility_under_attack,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,utility_under_attack,overall,0.33,0.33
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,utility_under_attack,github,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,utility_under_attack,dailylife,1.0,1.00
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,utility_under_attack,overall,4.65,4.65
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,utility_under_attack,github,4.44,4.44
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,utility_under_attack,dailylife,9.5,9.50
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,utility_under_attack,overall,4.13,4.13
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,utility_under_attack,github,8.89,8.89
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,utility_under_attack,dailylife,3.5,3.50
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,utility_under_attack,overall,2.0,2.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,utility_under_attack,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,utility_under_attack,github,5.0,5.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,utility_under_attack,dailylife,1.0,1.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,utility_under_attack,github,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,utility_under_attack,github,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,utility_under_attack,github,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,utility_under_attack,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,utility_under_attack,github,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,utility_under_attack,github,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,utility_under_attack,github,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,utility_under_attack,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,utility_under_attack,github,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,utility_under_attack,github,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,utility_under_attack,github,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,utility_under_attack,overall,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,utility_under_attack,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,utility_under_attack,github,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,utility_under_attack,dailylife,0.0,0.00
+gpt-4o-mini,GPT-4o mini,progent,Progent,utility_under_attack,overall,3.83,3.83
+gpt-4o-mini,GPT-4o mini,progent,Progent,utility_under_attack,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,progent,Progent,utility_under_attack,github,10.0,10.00
+gpt-4o-mini,GPT-4o mini,progent,Progent,utility_under_attack,dailylife,1.5,1.50
+gpt-4o,GPT-4o,progent,Progent,utility_under_attack,overall,5.83,5.83
+gpt-4o,GPT-4o,progent,Progent,utility_under_attack,shopping,0.56,0.56
+gpt-4o,GPT-4o,progent,Progent,utility_under_attack,github,14.44,14.44
+gpt-4o,GPT-4o,progent,Progent,utility_under_attack,dailylife,2.5,2.50
+gpt-5.1,GPT-5.1,progent,Progent,utility_under_attack,overall,14.98,14.98
+gpt-5.1,GPT-5.1,progent,Progent,utility_under_attack,shopping,5.56,5.56
+gpt-5.1,GPT-5.1,progent,Progent,utility_under_attack,github,28.89,28.89
+gpt-5.1,GPT-5.1,progent,Progent,utility_under_attack,dailylife,10.5,10.50
+gpt-5-mini,GPT-5-mini,progent,Progent,utility_under_attack,overall,17.63,17.63
+gpt-5-mini,GPT-5-mini,progent,Progent,utility_under_attack,shopping,11.67,11.67
+gpt-5-mini,GPT-5-mini,progent,Progent,utility_under_attack,github,27.22,27.22
+gpt-5-mini,GPT-5-mini,progent,Progent,utility_under_attack,dailylife,14.0,14.00
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,utility_under_attack,overall,16.06,16.06
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,utility_under_attack,shopping,10.56,10.56
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,utility_under_attack,github,26.11,26.11
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,utility_under_attack,dailylife,11.5,11.50
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,utility_under_attack,overall,2.04,2.04
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,utility_under_attack,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,utility_under_attack,github,6.11,6.11
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,utility_under_attack,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,utility_under_attack,overall,10.63,10.63
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,utility_under_attack,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,utility_under_attack,github,23.89,23.89
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,utility_under_attack,dailylife,8.0,8.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,utility_under_attack,overall,14.46,14.46
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,utility_under_attack,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,utility_under_attack,github,23.89,23.89
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,utility_under_attack,dailylife,19.5,19.50
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,utility_under_attack,overall,2.19,2.19
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,utility_under_attack,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,utility_under_attack,github,0.56,0.56
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,utility_under_attack,dailylife,6.0,6.00
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,utility_under_attack,overall,2.28,2.28
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,utility_under_attack,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,utility_under_attack,github,3.33,3.33
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,utility_under_attack,dailylife,3.5,3.50
+qwen3-coder,Qwen3-Coder,progent,Progent,utility_under_attack,overall,8.33,8.33
+qwen3-coder,Qwen3-Coder,progent,Progent,utility_under_attack,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,progent,Progent,utility_under_attack,github,20.0,20.00
+qwen3-coder,Qwen3-Coder,progent,Progent,utility_under_attack,dailylife,5.0,5.00
+kimi-k2.5,Kimi-K2.5,progent,Progent,utility_under_attack,overall,26.35,26.35
+kimi-k2.5,Kimi-K2.5,progent,Progent,utility_under_attack,shopping,2.78,2.78
+kimi-k2.5,Kimi-K2.5,progent,Progent,utility_under_attack,github,38.33,38.33
+kimi-k2.5,Kimi-K2.5,progent,Progent,utility_under_attack,dailylife,37.93,37.93
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,utility_under_attack,overall,19.31,19.31
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,utility_under_attack,shopping,12.22,12.22
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,utility_under_attack,github,32.22,32.22
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,utility_under_attack,dailylife,13.5,13.50
+gpt-4o,GPT-4o,drift,DRIFT,utility_under_attack,overall,27.09,27.09
+gpt-4o,GPT-4o,drift,DRIFT,utility_under_attack,shopping,19.44,19.44
+gpt-4o,GPT-4o,drift,DRIFT,utility_under_attack,github,33.33,33.33
+gpt-4o,GPT-4o,drift,DRIFT,utility_under_attack,dailylife,28.5,28.50
+gpt-5.1,GPT-5.1,drift,DRIFT,utility_under_attack,overall,6.12,6.12
+gpt-5.1,GPT-5.1,drift,DRIFT,utility_under_attack,shopping,1.11,1.11
+gpt-5.1,GPT-5.1,drift,DRIFT,utility_under_attack,github,12.24,12.24
+gpt-5.1,GPT-5.1,drift,DRIFT,utility_under_attack,dailylife,5.0,5.00
+gpt-5-mini,GPT-5-mini,drift,DRIFT,utility_under_attack,overall,17.17,17.17
+gpt-5-mini,GPT-5-mini,drift,DRIFT,utility_under_attack,shopping,18.89,18.89
+gpt-5-mini,GPT-5-mini,drift,DRIFT,utility_under_attack,github,21.11,21.11
+gpt-5-mini,GPT-5-mini,drift,DRIFT,utility_under_attack,dailylife,11.5,11.50
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,utility_under_attack,overall,33.04,33.04
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,utility_under_attack,shopping,24.44,24.44
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,utility_under_attack,github,36.67,36.67
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,utility_under_attack,dailylife,38.0,38.00
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,utility_under_attack,overall,12.41,12.41
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,utility_under_attack,shopping,10.0,10.00
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,utility_under_attack,github,17.22,17.22
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,utility_under_attack,dailylife,10.0,10.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,utility_under_attack,overall,34.0,34.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,utility_under_attack,shopping,21.67,21.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,utility_under_attack,github,38.33,38.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,utility_under_attack,dailylife,42.0,42.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,utility_under_attack,overall,27.19,27.19
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,utility_under_attack,shopping,2.78,2.78
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,utility_under_attack,github,42.78,42.78
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,utility_under_attack,dailylife,36.0,36.00
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,utility_under_attack,overall,33.19,33.19
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,utility_under_attack,shopping,27.78,27.78
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,utility_under_attack,github,42.78,42.78
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,utility_under_attack,dailylife,29.0,29.00
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,utility_under_attack,overall,8.96,8.96
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,utility_under_attack,shopping,5.56,5.56
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,utility_under_attack,github,18.33,18.33
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,utility_under_attack,dailylife,3.0,3.00
+qwen3-coder,Qwen3-Coder,drift,DRIFT,utility_under_attack,overall,19.98,19.98
+qwen3-coder,Qwen3-Coder,drift,DRIFT,utility_under_attack,shopping,2.22,2.22
+qwen3-coder,Qwen3-Coder,drift,DRIFT,utility_under_attack,github,37.22,37.22
+qwen3-coder,Qwen3-Coder,drift,DRIFT,utility_under_attack,dailylife,20.5,20.50
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,utility_under_attack,overall,22.44,22.44
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,utility_under_attack,shopping,18.33,18.33
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,utility_under_attack,github,25.33,25.33
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,utility_under_attack,dailylife,24.0,24.00
+gpt-4o-mini,GPT-4o mini,none,None,asr,overall,50.0,50.00
+gpt-4o-mini,GPT-4o mini,none,None,asr,shopping,28.89,28.89
+gpt-4o-mini,GPT-4o mini,none,None,asr,github,41.11,41.11
+gpt-4o-mini,GPT-4o mini,none,None,asr,dailylife,80.0,80.00
+gpt-4o,GPT-4o,none,None,asr,overall,37.8,37.80
+gpt-4o,GPT-4o,none,None,asr,shopping,25.0,25.00
+gpt-4o,GPT-4o,none,None,asr,github,18.89,18.89
+gpt-4o,GPT-4o,none,None,asr,dailylife,69.5,69.50
+gpt-5.1,GPT-5.1,none,None,asr,overall,4.96,4.96
+gpt-5.1,GPT-5.1,none,None,asr,shopping,1.67,1.67
+gpt-5.1,GPT-5.1,none,None,asr,github,2.22,2.22
+gpt-5.1,GPT-5.1,none,None,asr,dailylife,11.0,11.00
+gpt-5-mini,GPT-5-mini,none,None,asr,overall,0.37,0.37
+gpt-5-mini,GPT-5-mini,none,None,asr,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,none,None,asr,github,1.11,1.11
+gpt-5-mini,GPT-5-mini,none,None,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,asr,overall,20.61,20.61
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,asr,shopping,15.0,15.00
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,asr,github,13.33,13.33
+gemini-2.5-pro,Gemini-2.5 Pro,none,None,asr,dailylife,33.5,33.50
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,asr,overall,37.61,37.61
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,asr,shopping,14.44,14.44
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,asr,github,23.89,23.89
+gemini-2.5-flash,Gemini-2.5 Flash,none,None,asr,dailylife,74.5,74.50
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,asr,overall,11.89,11.89
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,asr,shopping,2.78,2.78
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,asr,github,13.89,13.89
+claude-sonnet-3.5,Claude-Sonnet-3.5,none,None,asr,dailylife,19.0,19.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,asr,overall,0.87,0.87
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,asr,github,1.11,1.11
+claude-sonnet-4.5,Claude-Sonnet-4.5,none,None,asr,dailylife,1.5,1.50
+qwen3-235b,Qwen3 235B-A22B,none,None,asr,overall,22.67,22.67
+qwen3-235b,Qwen3 235B-A22B,none,None,asr,shopping,5.0,5.00
+qwen3-235b,Qwen3 235B-A22B,none,None,asr,github,20.0,20.00
+qwen3-235b,Qwen3 235B-A22B,none,None,asr,dailylife,43.0,43.00
+llama-3.3-70b,Llama 3.3 70B,none,None,asr,overall,11.91,11.91
+llama-3.3-70b,Llama 3.3 70B,none,None,asr,shopping,2.22,2.22
+llama-3.3-70b,Llama 3.3 70B,none,None,asr,github,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,none,None,asr,dailylife,28.5,28.50
+qwen3-coder,Qwen3-Coder,none,None,asr,overall,14.61,14.61
+qwen3-coder,Qwen3-Coder,none,None,asr,shopping,10.0,10.00
+qwen3-coder,Qwen3-Coder,none,None,asr,github,13.33,13.33
+qwen3-coder,Qwen3-Coder,none,None,asr,dailylife,20.5,20.50
+kimi-k2.5,Kimi-K2.5,none,None,asr,overall,11.65,11.65
+kimi-k2.5,Kimi-K2.5,none,None,asr,shopping,7.22,7.22
+kimi-k2.5,Kimi-K2.5,none,None,asr,github,17.22,17.22
+kimi-k2.5,Kimi-K2.5,none,None,asr,dailylife,10.5,10.50
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,asr,overall,33.8,33.80
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,asr,shopping,15.56,15.56
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,asr,github,18.33,18.33
+gpt-4o-mini,GPT-4o mini,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,67.5,67.50
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,asr,overall,31.17,31.17
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,asr,shopping,19.44,19.44
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,asr,github,15.56,15.56
+gpt-4o,GPT-4o,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,58.5,58.50
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,asr,overall,1.2,1.20
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,asr,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,asr,github,1.11,1.11
+gpt-5.1,GPT-5.1,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,2.5,2.50
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,asr,overall,0.37,0.37
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,asr,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,asr,github,1.11,1.11
+gpt-5-mini,GPT-5-mini,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,asr,overall,23.94,23.94
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,asr,shopping,20.0,20.00
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,asr,github,18.33,18.33
+gemini-2.5-pro,Gemini-2.5 Pro,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,33.5,33.50
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,asr,overall,18.22,18.22
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,asr,shopping,6.11,6.11
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,asr,github,15.56,15.56
+gemini-2.5-flash,Gemini-2.5 Flash,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,33.0,33.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,asr,overall,11.26,11.26
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,asr,shopping,5.0,5.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,asr,github,12.78,12.78
+claude-sonnet-3.5,Claude-Sonnet-3.5,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,16.0,16.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,asr,overall,0.37,0.37
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,asr,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,1.11,1.11
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,asr,overall,25.7,25.70
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,asr,shopping,11.11,11.11
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,asr,github,20.0,20.00
+qwen3-235b,Qwen3 235B-A22B,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,46.0,46.00
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,asr,overall,9.96,9.96
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,asr,shopping,1.67,1.67
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,asr,github,2.22,2.22
+llama-3.3-70b,Llama 3.3 70B,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,26.0,26.00
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,asr,overall,17.7,17.70
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,asr,shopping,11.11,11.11
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,asr,github,15.0,15.00
+qwen3-coder,Qwen3-Coder,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,27.0,27.00
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,asr,overall,5.43,5.43
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,asr,shopping,3.89,3.89
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,asr,github,8.89,8.89
+kimi-k2.5,Kimi-K2.5,repeat_user_prompt,Prompt Sandwiching,asr,dailylife,3.5,3.50
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,asr,overall,47.33,47.33
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,asr,shopping,27.78,27.78
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,asr,github,42.22,42.22
+gpt-4o-mini,GPT-4o mini,spotlighting_with_delimiting,Spotlighting,asr,dailylife,72.0,72.00
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,asr,overall,27.61,27.61
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,asr,shopping,24.44,24.44
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,asr,github,18.89,18.89
+gpt-4o,GPT-4o,spotlighting_with_delimiting,Spotlighting,asr,dailylife,39.5,39.50
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,asr,overall,3.43,3.43
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,asr,shopping,1.11,1.11
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,asr,github,1.67,1.67
+gpt-5.1,GPT-5.1,spotlighting_with_delimiting,Spotlighting,asr,dailylife,7.5,7.50
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,asr,overall,0.56,0.56
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,asr,shopping,0.56,0.56
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,asr,github,1.11,1.11
+gpt-5-mini,GPT-5-mini,spotlighting_with_delimiting,Spotlighting,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,asr,overall,16.87,16.87
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,asr,shopping,11.67,11.67
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,asr,github,14.44,14.44
+gemini-2.5-pro,Gemini-2.5 Pro,spotlighting_with_delimiting,Spotlighting,asr,dailylife,24.5,24.50
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,asr,overall,17.74,17.74
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,asr,shopping,7.22,7.22
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,asr,github,10.0,10.00
+gemini-2.5-flash,Gemini-2.5 Flash,spotlighting_with_delimiting,Spotlighting,asr,dailylife,36.0,36.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,asr,overall,3.8,3.80
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,asr,shopping,0.56,0.56
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,asr,github,8.33,8.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,spotlighting_with_delimiting,Spotlighting,asr,dailylife,2.5,2.50
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,asr,overall,0.37,0.37
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,asr,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,spotlighting_with_delimiting,Spotlighting,asr,dailylife,1.11,1.11
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,asr,overall,27.72,27.72
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,asr,shopping,12.78,12.78
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,asr,github,23.89,23.89
+qwen3-235b,Qwen3 235B-A22B,spotlighting_with_delimiting,Spotlighting,asr,dailylife,46.5,46.50
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,asr,overall,14.85,14.85
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,asr,shopping,2.78,2.78
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,asr,github,7.78,7.78
+llama-3.3-70b,Llama 3.3 70B,spotlighting_with_delimiting,Spotlighting,asr,dailylife,34.0,34.00
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,asr,overall,13.28,13.28
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,asr,shopping,4.44,4.44
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,asr,github,13.89,13.89
+qwen3-coder,Qwen3-Coder,spotlighting_with_delimiting,Spotlighting,asr,dailylife,21.5,21.50
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,asr,overall,5.68,5.68
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,asr,shopping,2.22,2.22
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,asr,github,8.33,8.33
+kimi-k2.5,Kimi-K2.5,spotlighting_with_delimiting,Spotlighting,asr,dailylife,6.5,6.50
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,asr,overall,1.37,1.37
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,asr,github,1.11,1.11
+gpt-4o-mini,GPT-4o mini,transformers_pi_detector,ProtectAI,asr,dailylife,3.0,3.00
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,asr,overall,0.85,0.85
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,asr,github,0.56,0.56
+gpt-4o,GPT-4o,transformers_pi_detector,ProtectAI,asr,dailylife,2.0,2.00
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,asr,overall,0.0,0.00
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,asr,github,0.0,0.00
+gpt-5.1,GPT-5.1,transformers_pi_detector,ProtectAI,asr,dailylife,0.0,0.00
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,asr,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,asr,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,transformers_pi_detector,ProtectAI,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,asr,overall,0.69,0.69
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,asr,github,0.56,0.56
+gemini-2.5-pro,Gemini-2.5 Pro,transformers_pi_detector,ProtectAI,asr,dailylife,1.5,1.50
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,asr,overall,1.04,1.04
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,asr,github,1.11,1.11
+gemini-2.5-flash,Gemini-2.5 Flash,transformers_pi_detector,ProtectAI,asr,dailylife,2.0,2.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,asr,overall,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,asr,github,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,transformers_pi_detector,ProtectAI,asr,dailylife,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,asr,overall,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,asr,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,transformers_pi_detector,ProtectAI,asr,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,asr,overall,1.07,1.07
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,asr,github,2.22,2.22
+qwen3-235b,Qwen3 235B-A22B,transformers_pi_detector,ProtectAI,asr,dailylife,1.0,1.00
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,asr,overall,0.56,0.56
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,asr,github,1.67,1.67
+llama-3.3-70b,Llama 3.3 70B,transformers_pi_detector,ProtectAI,asr,dailylife,0.0,0.00
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,asr,overall,0.89,0.89
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,asr,github,1.67,1.67
+qwen3-coder,Qwen3-Coder,transformers_pi_detector,ProtectAI,asr,dailylife,1.0,1.00
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,asr,overall,0.0,0.00
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,asr,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,asr,github,0.0,0.00
+kimi-k2.5,Kimi-K2.5,transformers_pi_detector,ProtectAI,asr,dailylife,0.0,0.00
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,asr,overall,1.33,1.33
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,asr,github,0.0,0.00
+gpt-4o-mini,GPT-4o mini,piguard_detector,PIGuard,asr,dailylife,4.0,4.00
+gpt-4o,GPT-4o,piguard_detector,PIGuard,asr,overall,1.67,1.67
+gpt-4o,GPT-4o,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+gpt-4o,GPT-4o,piguard_detector,PIGuard,asr,github,0.0,0.00
+gpt-4o,GPT-4o,piguard_detector,PIGuard,asr,dailylife,5.0,5.00
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,asr,overall,1.17,1.17
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,asr,github,0.0,0.00
+gpt-5.1,GPT-5.1,piguard_detector,PIGuard,asr,dailylife,3.5,3.50
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,asr,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,asr,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,piguard_detector,PIGuard,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,asr,overall,1.83,1.83
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,asr,github,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,piguard_detector,PIGuard,asr,dailylife,5.5,5.50
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,asr,overall,2.0,2.00
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,asr,github,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,piguard_detector,PIGuard,asr,dailylife,6.0,6.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,asr,overall,1.33,1.33
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,asr,github,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,piguard_detector,PIGuard,asr,dailylife,4.0,4.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,asr,overall,0.67,0.67
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,asr,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,piguard_detector,PIGuard,asr,dailylife,2.0,2.00
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,asr,overall,1.83,1.83
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,asr,github,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,piguard_detector,PIGuard,asr,dailylife,5.5,5.50
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,asr,overall,0.67,0.67
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,asr,github,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,piguard_detector,PIGuard,asr,dailylife,2.0,2.00
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,asr,overall,1.67,1.67
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,asr,github,0.0,0.00
+qwen3-coder,Qwen3-Coder,piguard_detector,PIGuard,asr,dailylife,5.0,5.00
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,asr,overall,0.83,0.83
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,asr,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,asr,github,0.0,0.00
+kimi-k2.5,Kimi-K2.5,piguard_detector,PIGuard,asr,dailylife,2.5,2.50
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,asr,overall,28.54,28.54
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,asr,shopping,6.11,6.11
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,asr,github,0.0,0.00
+gpt-4o-mini,GPT-4o mini,prompt_guard_2_detector,PromptGuard2,asr,dailylife,79.5,79.50
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,asr,overall,27.15,27.15
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,asr,shopping,9.44,9.44
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,asr,github,10.0,10.00
+gpt-4o,GPT-4o,prompt_guard_2_detector,PromptGuard2,asr,dailylife,62.0,62.00
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,asr,overall,3.71,3.71
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,asr,shopping,0.56,0.56
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,asr,github,0.56,0.56
+gpt-5.1,GPT-5.1,prompt_guard_2_detector,PromptGuard2,asr,dailylife,10.0,10.00
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,asr,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,asr,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,asr,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,prompt_guard_2_detector,PromptGuard2,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,asr,overall,14.5,14.50
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,asr,shopping,2.22,2.22
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,asr,github,7.78,7.78
+gemini-2.5-pro,Gemini-2.5 Pro,prompt_guard_2_detector,PromptGuard2,asr,dailylife,33.5,33.50
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,asr,overall,23.87,23.87
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,asr,shopping,2.78,2.78
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,asr,github,8.33,8.33
+gemini-2.5-flash,Gemini-2.5 Flash,prompt_guard_2_detector,PromptGuard2,asr,dailylife,60.5,60.50
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,asr,overall,8.2,8.20
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,asr,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,asr,github,6.11,6.11
+claude-sonnet-3.5,Claude-Sonnet-3.5,prompt_guard_2_detector,PromptGuard2,asr,dailylife,18.5,18.50
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,asr,overall,0.67,0.67
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,asr,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,prompt_guard_2_detector,PromptGuard2,asr,dailylife,2.0,2.00
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,asr,overall,22.0,22.00
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,asr,shopping,8.89,8.89
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,asr,github,16.11,16.11
+qwen3-235b,Qwen3 235B-A22B,prompt_guard_2_detector,PromptGuard2,asr,dailylife,41.0,41.00
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,asr,overall,11.07,11.07
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,asr,shopping,2.78,2.78
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,asr,github,4.44,4.44
+llama-3.3-70b,Llama 3.3 70B,prompt_guard_2_detector,PromptGuard2,asr,dailylife,26.0,26.00
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,asr,overall,12.17,12.17
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,asr,shopping,2.22,2.22
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,asr,github,12.78,12.78
+qwen3-coder,Qwen3-Coder,prompt_guard_2_detector,PromptGuard2,asr,dailylife,21.5,21.50
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,asr,overall,5.24,5.24
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,asr,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,asr,github,7.22,7.22
+kimi-k2.5,Kimi-K2.5,prompt_guard_2_detector,PromptGuard2,asr,dailylife,8.5,8.50
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,asr,overall,5.26,5.26
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,asr,shopping,0.0,0.00
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,asr,github,2.78,2.78
+meta-secalign-8b,Meta-SecAlign 8B,meta_secalign,Meta-SecAlign,asr,dailylife,13.0,13.00
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,asr,overall,8.98,8.98
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,asr,shopping,10.0,10.00
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,asr,github,4.44,4.44
+meta-secalign-70b,Meta-SecAlign 70B,meta_secalign,Meta-SecAlign,asr,dailylife,12.5,12.50
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,asr,overall,6.15,6.15
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,asr,shopping,0.56,0.56
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,asr,github,3.89,3.89
+gpt-4o-mini,GPT-4o mini,tool_filter,Tool Filter,asr,dailylife,14.0,14.00
+gpt-4o,GPT-4o,tool_filter,Tool Filter,asr,overall,4.22,4.22
+gpt-4o,GPT-4o,tool_filter,Tool Filter,asr,shopping,0.56,0.56
+gpt-4o,GPT-4o,tool_filter,Tool Filter,asr,github,1.11,1.11
+gpt-4o,GPT-4o,tool_filter,Tool Filter,asr,dailylife,11.0,11.00
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,asr,overall,0.0,0.00
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,asr,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,asr,github,0.0,0.00
+gpt-5.1,GPT-5.1,tool_filter,Tool Filter,asr,dailylife,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,asr,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,asr,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,asr,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,tool_filter,Tool Filter,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,asr,overall,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,asr,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,asr,github,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,tool_filter,Tool Filter,asr,dailylife,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,asr,overall,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,asr,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,asr,github,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,tool_filter,Tool Filter,asr,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,asr,overall,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,asr,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,asr,github,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,tool_filter,Tool Filter,asr,dailylife,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,asr,overall,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,asr,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,tool_filter,Tool Filter,asr,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,asr,overall,0.33,0.33
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,asr,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,asr,github,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,tool_filter,Tool Filter,asr,dailylife,1.0,1.00
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,asr,overall,2.52,2.52
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,asr,shopping,0.56,0.56
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,asr,github,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,tool_filter,Tool Filter,asr,dailylife,7.0,7.00
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,asr,overall,3.13,3.13
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,asr,shopping,2.22,2.22
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,asr,github,1.67,1.67
+qwen3-coder,Qwen3-Coder,tool_filter,Tool Filter,asr,dailylife,5.5,5.50
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,asr,overall,0.0,0.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,asr,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,asr,github,0.0,0.00
+kimi-k2.5,Kimi-K2.5,tool_filter,Tool Filter,asr,dailylife,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,asr,overall,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,asr,shopping,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,asr,github,0.0,0.00
+gpt-4o-mini,GPT-4o mini,camel,CaMeL,asr,dailylife,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,asr,overall,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,asr,shopping,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,asr,github,0.0,0.00
+gpt-4o,GPT-4o,camel,CaMeL,asr,dailylife,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,asr,overall,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,asr,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,asr,github,0.0,0.00
+gpt-5.1,GPT-5.1,camel,CaMeL,asr,dailylife,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,asr,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,asr,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,asr,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,camel,CaMeL,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,asr,overall,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,asr,shopping,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,asr,github,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,camel,CaMeL,asr,dailylife,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,asr,overall,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,asr,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,asr,github,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,camel,CaMeL,asr,dailylife,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,asr,overall,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,asr,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,asr,github,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,camel,CaMeL,asr,dailylife,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,asr,overall,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,asr,github,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,camel,CaMeL,asr,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,asr,overall,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,asr,shopping,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,asr,github,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,camel,CaMeL,asr,dailylife,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,asr,overall,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,asr,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,asr,github,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,camel,CaMeL,asr,dailylife,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,asr,overall,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,asr,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,asr,github,0.0,0.00
+qwen3-coder,Qwen3-Coder,camel,CaMeL,asr,dailylife,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,asr,overall,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,asr,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,asr,github,0.0,0.00
+kimi-k2.5,Kimi-K2.5,camel,CaMeL,asr,dailylife,0.0,0.00
+gpt-4o-mini,GPT-4o mini,progent,Progent,asr,overall,10.33,10.33
+gpt-4o-mini,GPT-4o mini,progent,Progent,asr,shopping,3.33,3.33
+gpt-4o-mini,GPT-4o mini,progent,Progent,asr,github,6.67,6.67
+gpt-4o-mini,GPT-4o mini,progent,Progent,asr,dailylife,21.0,21.00
+gpt-4o,GPT-4o,progent,Progent,asr,overall,1.69,1.69
+gpt-4o,GPT-4o,progent,Progent,asr,shopping,0.56,0.56
+gpt-4o,GPT-4o,progent,Progent,asr,github,0.0,0.00
+gpt-4o,GPT-4o,progent,Progent,asr,dailylife,4.5,4.50
+gpt-5.1,GPT-5.1,progent,Progent,asr,overall,1.22,1.22
+gpt-5.1,GPT-5.1,progent,Progent,asr,shopping,0.56,0.56
+gpt-5.1,GPT-5.1,progent,Progent,asr,github,1.11,1.11
+gpt-5.1,GPT-5.1,progent,Progent,asr,dailylife,2.0,2.00
+gpt-5-mini,GPT-5-mini,progent,Progent,asr,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,progent,Progent,asr,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,progent,Progent,asr,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,progent,Progent,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,asr,overall,1.59,1.59
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,asr,shopping,1.11,1.11
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,asr,github,1.67,1.67
+gemini-2.5-pro,Gemini-2.5 Pro,progent,Progent,asr,dailylife,2.0,2.00
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,asr,overall,2.24,2.24
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,asr,shopping,0.0,0.00
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,asr,github,2.22,2.22
+gemini-2.5-flash,Gemini-2.5 Flash,progent,Progent,asr,dailylife,4.5,4.50
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,asr,overall,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,asr,shopping,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,asr,github,0.0,0.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,progent,Progent,asr,dailylife,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,asr,overall,0.19,0.19
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,asr,github,0.56,0.56
+claude-sonnet-4.5,Claude-Sonnet-4.5,progent,Progent,asr,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,asr,overall,13.59,13.59
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,asr,shopping,4.44,4.44
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,asr,github,8.33,8.33
+qwen3-235b,Qwen3 235B-A22B,progent,Progent,asr,dailylife,28.0,28.00
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,asr,overall,0.52,0.52
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,asr,shopping,0.0,0.00
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,asr,github,0.56,0.56
+llama-3.3-70b,Llama 3.3 70B,progent,Progent,asr,dailylife,1.0,1.00
+qwen3-coder,Qwen3-Coder,progent,Progent,asr,overall,11.22,11.22
+qwen3-coder,Qwen3-Coder,progent,Progent,asr,shopping,5.0,5.00
+qwen3-coder,Qwen3-Coder,progent,Progent,asr,github,6.67,6.67
+qwen3-coder,Qwen3-Coder,progent,Progent,asr,dailylife,22.0,22.00
+kimi-k2.5,Kimi-K2.5,progent,Progent,asr,overall,0.19,0.19
+kimi-k2.5,Kimi-K2.5,progent,Progent,asr,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,progent,Progent,asr,github,0.56,0.56
+kimi-k2.5,Kimi-K2.5,progent,Progent,asr,dailylife,0.0,0.00
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,asr,overall,3.39,3.39
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,asr,shopping,1.11,1.11
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,asr,github,0.56,0.56
+gpt-4o-mini,GPT-4o mini,drift,DRIFT,asr,dailylife,8.5,8.50
+gpt-4o,GPT-4o,drift,DRIFT,asr,overall,0.83,0.83
+gpt-4o,GPT-4o,drift,DRIFT,asr,shopping,0.0,0.00
+gpt-4o,GPT-4o,drift,DRIFT,asr,github,0.0,0.00
+gpt-4o,GPT-4o,drift,DRIFT,asr,dailylife,2.5,2.50
+gpt-5.1,GPT-5.1,drift,DRIFT,asr,overall,0.0,0.00
+gpt-5.1,GPT-5.1,drift,DRIFT,asr,shopping,0.0,0.00
+gpt-5.1,GPT-5.1,drift,DRIFT,asr,github,0.0,0.00
+gpt-5.1,GPT-5.1,drift,DRIFT,asr,dailylife,0.0,0.00
+gpt-5-mini,GPT-5-mini,drift,DRIFT,asr,overall,0.0,0.00
+gpt-5-mini,GPT-5-mini,drift,DRIFT,asr,shopping,0.0,0.00
+gpt-5-mini,GPT-5-mini,drift,DRIFT,asr,github,0.0,0.00
+gpt-5-mini,GPT-5-mini,drift,DRIFT,asr,dailylife,0.0,0.00
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,asr,overall,1.09,1.09
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,asr,shopping,1.11,1.11
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,asr,github,1.67,1.67
+gemini-2.5-pro,Gemini-2.5 Pro,drift,DRIFT,asr,dailylife,0.5,0.50
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,asr,overall,2.82,2.82
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,asr,shopping,3.89,3.89
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,asr,github,0.56,0.56
+gemini-2.5-flash,Gemini-2.5 Flash,drift,DRIFT,asr,dailylife,4.0,4.00
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,asr,overall,3.09,3.09
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,asr,shopping,1.67,1.67
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,asr,github,1.11,1.11
+claude-sonnet-3.5,Claude-Sonnet-3.5,drift,DRIFT,asr,dailylife,6.5,6.50
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,asr,overall,0.19,0.19
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,asr,shopping,0.0,0.00
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,asr,github,0.56,0.56
+claude-sonnet-4.5,Claude-Sonnet-4.5,drift,DRIFT,asr,dailylife,0.0,0.00
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,asr,overall,9.07,9.07
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,asr,shopping,7.78,7.78
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,asr,github,4.44,4.44
+qwen3-235b,Qwen3 235B-A22B,drift,DRIFT,asr,dailylife,15.0,15.00
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,asr,overall,5.89,5.89
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,asr,shopping,5.0,5.00
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,asr,github,1.67,1.67
+llama-3.3-70b,Llama 3.3 70B,drift,DRIFT,asr,dailylife,11.0,11.00
+qwen3-coder,Qwen3-Coder,drift,DRIFT,asr,overall,0.69,0.69
+qwen3-coder,Qwen3-Coder,drift,DRIFT,asr,shopping,0.0,0.00
+qwen3-coder,Qwen3-Coder,drift,DRIFT,asr,github,0.56,0.56
+qwen3-coder,Qwen3-Coder,drift,DRIFT,asr,dailylife,1.5,1.50
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,asr,overall,0.0,0.00
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,asr,shopping,0.0,0.00
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,asr,github,0.0,0.00
+kimi-k2.5,Kimi-K2.5,drift,DRIFT,asr,dailylife,0.0,0.00

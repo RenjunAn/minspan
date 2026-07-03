@@ -1,0 +1,11 @@
+defense,none_utility,direct_utility,direct_asr,combined_utility,combined_asr
+none,74.31,56.77,55.85,49.85,72.38
+minspan,74.46,73.31,6.38,72.46,1.46
+attentiontracker,15.31,,,,
+datafilter,62.62,50.62,37.31,51.69,22.15
+datasentinel,55.31,,,,
+piguard,72.15,,,,
+pisanitizer,74.08,71.38,11.23,72.77,3.85
+promptarmor,74.31,60.62,50.31,56.08,57.85
+promptguard,66.38,,,,
+secalign,58.38,58.54,4.15,58.23,6.62

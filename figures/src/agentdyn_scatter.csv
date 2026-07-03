@@ -1,142 +1,142 @@
-family,asr,ua
-Detection,1.07,0.74
-Detection,0.69,0.74
-System-level,0.19,26.35
-System-level,-0.0,0.0
-Detection,0.83,4.57
-System-level,16.76,39.85
-Detection,3.71,22.26
-Prevention,3.8,58.33
-Detection,1.85,10.37
-System-level,-0.0,3.67
-System-level,0.52,2.28
-Prevention,47.33,35.78
-Detection,0.67,0.0
-System-level,2.24,2.04
-System-level,-0.0,22.44
-Prevention,29.89,74.54
-Detection,2.0,1.83
-System-level,3.3,30.59
-Detection,-0.0,0.56
-Prevention,2.46,66.04
-System-level,-0.0,0.0
-Detection,5.24,30.15
-System-level,5.89,8.96
-Prevention,18.22,14.33
-System-level,-0.0,0.0
-System-level,-0.0,2.0
-Prevention,0.56,61.13
-Detection,1.33,3.26
-Detection,25.15,57.07
-System-level,-0.0,0.0
-System-level,11.22,8.33
-System-level,-0.0,0.0
-Detection,11.07,6.44
-System-level,0.7,22.59
-Detection,1.67,0.52
-System-level,2.52,4.65
-Prevention,0.37,68.33
-Detection,23.87,11.19
-Detection,-0.0,0.37
-Detection,0.5,5.63
-System-level,3.39,19.31
-Prevention,27.61,52.24
-System-level,-0.0,0.0
-Prevention,17.7,16.63
-Detection,0.52,1.65
-Prevention,27.72,13.02
-Prevention,16.87,52.61
-Prevention,5.43,54.13
-System-level,-0.0,0.0
-System-level,0.69,19.98
-System-level,0.93,33.87
-Detection,1.04,0.19
-Detection,0.67,2.17
-System-level,-0.0,10.63
-Detection,12.17,8.13
-Prevention,9.96,7.35
-System-level,10.33,3.83
-System-level,3.13,4.13
-Detection,1.33,2.93
-Detection,2.06,50.87
-System-level,-0.0,0.0
-System-level,-0.0,0.0
-System-level,-0.0,0.0
-Prevention,3.43,50.06
-Prevention,11.26,55.67
-System-level,0.19,27.19
-Prevention,33.8,37.78
-Detection,0.89,0.74
-System-level,3.09,34.0
-Detection,-0.0,0.56
-System-level,1.09,33.04
-System-level,-0.0,17.63
-Detection,-0.0,7.35
-Detection,8.2,27.69
-Filtering,-0.0,67.94
-Prevention,2.41,69.69
-System-level,-0.0,0.5
-Detection,28.54,13.7
-Detection,0.56,1.11
-System-level,6.15,4.8
-System-level,-0.0,0.0
-System-level,0.19,14.46
-System-level,1.69,5.83
-Prevention,16.96,73.56
-System-level,-0.0,17.17
-System-level,13.59,2.19
-Detection,1.67,1.46
-System-level,1.59,16.06
-Detection,-0.0,1.11
-Detection,1.83,0.7
-Detection,1.37,0.93
-Detection,1.83,2.17
-Prevention,0.37,74.07
-Prevention,17.74,12.5
-Detection,-0.0,33.92
-Prevention,31.17,56.13
-System-level,-0.0,0.0
-Prevention,25.7,14.82
-System-level,-0.0,0.0
-System-level,0.83,27.09
-Prevention,23.94,49.08
-System-level,9.07,33.19
-Filtering,0.83,60.61
-Detection,0.67,41.37
-Detection,27.15,20.8
-System-level,-0.0,0.0
-Detection,-0.0,0.93
-System-level,-0.0,0.0
-System-level,1.22,14.98
-System-level,4.22,4.91
-Prevention,13.28,16.15
-Detection,22.0,10.5
-Detection,14.5,17.18
-Detection,1.17,2.72
-System-level,-0.0,0.0
-Prevention,5.68,53.5
-System-level,0.33,0.33
-System-level,-0.0,0.93
-Prevention,0.37,65.22
-Detection,-0.0,1.11
-Prevention,1.2,53.78
-Detection,0.85,0.56
-System-level,-0.0,0.0
-System-level,2.82,12.41
-Prevention,14.85,6.78
-System-level,-0.0,6.12
-MinSpan,0.69,66.72
-No defense,0.37,64.76
-No defense,4.96,50.04
-No defense,37.8,55.52
-No defense,22.67,10.74
-No defense,37.61,24.29
-No defense,11.65,54.17
-No defense,33.89,73.5
-No defense,11.91,6.15
-No defense,50.0,35.69
-No defense,14.61,15.76
-No defense,3.15,67.07
-No defense,0.87,70.74
-No defense,11.89,55.43
-No defense,20.61,56.95
+family,model,defense,asr,ua
+System-level,claude-sonnet-3.5,camel,0.00,0.00
+System-level,claude-sonnet-3.5,drift,3.09,34.00
+No defense,claude-sonnet-3.5,none,11.89,55.43
+Detection,claude-sonnet-3.5,piguard_detector,1.33,2.93
+System-level,claude-sonnet-3.5,progent,0.00,10.63
+Detection,claude-sonnet-3.5,prompt_guard_2_detector,8.20,27.69
+Prevention,claude-sonnet-3.5,repeat_user_prompt,11.26,55.67
+Prevention,claude-sonnet-3.5,spotlighting_with_delimiting,3.80,58.33
+System-level,claude-sonnet-3.5,tool_filter,0.00,0.50
+Detection,claude-sonnet-3.5,transformers_pi_detector,0.00,1.11
+System-level,claude-sonnet-4.5,camel,0.00,0.00
+System-level,claude-sonnet-4.5,drift,0.19,27.19
+No defense,claude-sonnet-4.5,none,0.87,70.74
+Detection,claude-sonnet-4.5,piguard_detector,0.67,2.17
+System-level,claude-sonnet-4.5,progent,0.19,14.46
+Detection,claude-sonnet-4.5,prompt_guard_2_detector,0.67,41.37
+Prevention,claude-sonnet-4.5,repeat_user_prompt,0.37,74.07
+Prevention,claude-sonnet-4.5,spotlighting_with_delimiting,0.37,68.33
+System-level,claude-sonnet-4.5,tool_filter,0.00,0.00
+Detection,claude-sonnet-4.5,transformers_pi_detector,0.00,1.11
+Filtering,deepseek-v4-flash,data_filter,0.83,60.61
+Filtering,deepseek-v4-flash,deepseek_flash_pi_sanitizer,0.00,67.94
+System-level,deepseek-v4-flash,drift,0.93,33.87
+MinSpan,deepseek-v4-flash,minspan,0.69,66.43
+No defense,deepseek-v4-flash,none,3.15,67.07
+Detection,deepseek-v4-flash,piguard_detector,0.50,5.63
+System-level,deepseek-v4-flash,progent,0.70,22.59
+Detection,deepseek-v4-flash,prompt_guard_2_detector,2.06,50.87
+Prevention,deepseek-v4-flash,repeat_user_prompt,2.41,69.69
+Prevention,deepseek-v4-flash,spotlighting_with_delimiting,2.46,66.04
+System-level,deepseek-v4-flash,tool_filter,0.00,0.00
+Detection,deepseek-v4-flash,transformers_pi_detector,0.00,0.56
+System-level,deepseek-v4-pro,drift,3.30,30.59
+No defense,deepseek-v4-pro,none,33.89,73.50
+Detection,deepseek-v4-pro,piguard_detector,1.85,10.37
+System-level,deepseek-v4-pro,progent,16.76,39.85
+Detection,deepseek-v4-pro,prompt_guard_2_detector,25.15,57.07
+Prevention,deepseek-v4-pro,repeat_user_prompt,29.89,74.54
+Prevention,deepseek-v4-pro,spotlighting_with_delimiting,16.96,73.56
+System-level,deepseek-v4-pro,tool_filter,0.00,0.00
+Detection,deepseek-v4-pro,transformers_pi_detector,0.52,1.65
+System-level,gemini-2.5-flash,camel,0.00,0.00
+System-level,gemini-2.5-flash,drift,2.82,12.41
+No defense,gemini-2.5-flash,none,37.61,24.29
+Detection,gemini-2.5-flash,piguard_detector,2.00,1.83
+System-level,gemini-2.5-flash,progent,2.24,2.04
+Detection,gemini-2.5-flash,prompt_guard_2_detector,23.87,11.19
+Prevention,gemini-2.5-flash,repeat_user_prompt,18.22,14.33
+Prevention,gemini-2.5-flash,spotlighting_with_delimiting,17.74,12.50
+System-level,gemini-2.5-flash,tool_filter,0.00,0.00
+Detection,gemini-2.5-flash,transformers_pi_detector,1.04,0.19
+System-level,gemini-2.5-pro,camel,0.00,0.00
+System-level,gemini-2.5-pro,drift,1.09,33.04
+No defense,gemini-2.5-pro,none,20.61,56.95
+Detection,gemini-2.5-pro,piguard_detector,1.83,2.17
+System-level,gemini-2.5-pro,progent,1.59,16.06
+Detection,gemini-2.5-pro,prompt_guard_2_detector,14.50,17.18
+Prevention,gemini-2.5-pro,repeat_user_prompt,23.94,49.08
+Prevention,gemini-2.5-pro,spotlighting_with_delimiting,16.87,52.61
+System-level,gemini-2.5-pro,tool_filter,0.00,0.93
+Detection,gemini-2.5-pro,transformers_pi_detector,0.69,0.74
+System-level,gpt-4o,camel,0.00,0.00
+System-level,gpt-4o,drift,0.83,27.09
+No defense,gpt-4o,none,37.80,55.52
+Detection,gpt-4o,piguard_detector,1.67,1.46
+System-level,gpt-4o,progent,1.69,5.83
+Detection,gpt-4o,prompt_guard_2_detector,27.15,20.80
+Prevention,gpt-4o,repeat_user_prompt,31.17,56.13
+Prevention,gpt-4o,spotlighting_with_delimiting,27.61,52.24
+System-level,gpt-4o,tool_filter,4.22,4.91
+Detection,gpt-4o,transformers_pi_detector,0.85,0.56
+System-level,gpt-4o-mini,camel,0.00,0.00
+System-level,gpt-4o-mini,drift,3.39,19.31
+No defense,gpt-4o-mini,none,50.00,35.69
+Detection,gpt-4o-mini,piguard_detector,1.33,3.26
+System-level,gpt-4o-mini,progent,10.33,3.83
+Detection,gpt-4o-mini,prompt_guard_2_detector,28.54,13.70
+Prevention,gpt-4o-mini,repeat_user_prompt,33.80,37.78
+Prevention,gpt-4o-mini,spotlighting_with_delimiting,47.33,35.78
+System-level,gpt-4o-mini,tool_filter,6.15,4.80
+Detection,gpt-4o-mini,transformers_pi_detector,1.37,0.93
+System-level,gpt-5-mini,camel,0.00,0.00
+System-level,gpt-5-mini,drift,0.00,17.17
+No defense,gpt-5-mini,none,0.37,64.76
+Detection,gpt-5-mini,piguard_detector,0.00,7.35
+System-level,gpt-5-mini,progent,0.00,17.63
+Detection,gpt-5-mini,prompt_guard_2_detector,0.00,33.92
+Prevention,gpt-5-mini,repeat_user_prompt,0.37,65.22
+Prevention,gpt-5-mini,spotlighting_with_delimiting,0.56,61.13
+System-level,gpt-5-mini,tool_filter,0.00,0.00
+Detection,gpt-5-mini,transformers_pi_detector,0.00,0.93
+System-level,gpt-5.1,camel,0.00,0.00
+System-level,gpt-5.1,drift,0.00,6.12
+No defense,gpt-5.1,none,4.96,50.04
+Detection,gpt-5.1,piguard_detector,1.17,2.72
+System-level,gpt-5.1,progent,1.22,14.98
+Detection,gpt-5.1,prompt_guard_2_detector,3.71,22.26
+Prevention,gpt-5.1,repeat_user_prompt,1.20,53.78
+Prevention,gpt-5.1,spotlighting_with_delimiting,3.43,50.06
+System-level,gpt-5.1,tool_filter,0.00,3.67
+Detection,gpt-5.1,transformers_pi_detector,0.00,0.56
+System-level,kimi-k2.5,camel,0.00,0.00
+System-level,kimi-k2.5,drift,0.00,22.44
+No defense,kimi-k2.5,none,11.65,54.17
+Detection,kimi-k2.5,piguard_detector,0.83,4.57
+System-level,kimi-k2.5,progent,0.19,26.35
+Detection,kimi-k2.5,prompt_guard_2_detector,5.24,30.15
+Prevention,kimi-k2.5,repeat_user_prompt,5.43,54.13
+Prevention,kimi-k2.5,spotlighting_with_delimiting,5.68,53.50
+System-level,kimi-k2.5,tool_filter,0.00,2.00
+Detection,kimi-k2.5,transformers_pi_detector,0.00,0.37
+System-level,llama-3.3-70b,camel,0.00,0.00
+System-level,llama-3.3-70b,drift,5.89,8.96
+No defense,llama-3.3-70b,none,11.91,6.15
+Detection,llama-3.3-70b,piguard_detector,0.67,0.00
+System-level,llama-3.3-70b,progent,0.52,2.28
+Detection,llama-3.3-70b,prompt_guard_2_detector,11.07,6.44
+Prevention,llama-3.3-70b,repeat_user_prompt,9.96,7.35
+Prevention,llama-3.3-70b,spotlighting_with_delimiting,14.85,6.78
+System-level,llama-3.3-70b,tool_filter,2.52,4.65
+Detection,llama-3.3-70b,transformers_pi_detector,0.56,1.11
+System-level,qwen3-235b,camel,0.00,0.00
+System-level,qwen3-235b,drift,9.07,33.19
+No defense,qwen3-235b,none,22.67,10.74
+Detection,qwen3-235b,piguard_detector,1.83,0.70
+System-level,qwen3-235b,progent,13.59,2.19
+Detection,qwen3-235b,prompt_guard_2_detector,22.00,10.50
+Prevention,qwen3-235b,repeat_user_prompt,25.70,14.82
+Prevention,qwen3-235b,spotlighting_with_delimiting,27.72,13.02
+System-level,qwen3-235b,tool_filter,0.33,0.33
+Detection,qwen3-235b,transformers_pi_detector,1.07,0.74
+System-level,qwen3-coder,camel,0.00,0.00
+System-level,qwen3-coder,drift,0.69,19.98
+No defense,qwen3-coder,none,14.61,15.76
+Detection,qwen3-coder,piguard_detector,1.67,0.52
+System-level,qwen3-coder,progent,11.22,8.33
+Detection,qwen3-coder,prompt_guard_2_detector,12.17,8.13
+Prevention,qwen3-coder,repeat_user_prompt,17.70,16.63
+Prevention,qwen3-coder,spotlighting_with_delimiting,13.28,16.15
+System-level,qwen3-coder,tool_filter,3.13,4.13
+Detection,qwen3-coder,transformers_pi_detector,0.89,0.74

@@ -26,7 +26,7 @@ from minspan.modeling import (
 
 
 def parse_args(argv=None) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Train the DataFilter tagger head")
+    parser = argparse.ArgumentParser(description="Train the MinSpan token tagger")
     parser.add_argument("--train-data", default="data/train.jsonl")
     parser.add_argument("--validation-data", default="data/validation.jsonl")
     parser.add_argument("--output-dir", default=None)
