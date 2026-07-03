@@ -1,0 +1,126 @@
+{
+  "total": 188928,
+  "by_file": {
+    "train.jsonl": {
+      "total": 120628,
+      "by_category": {
+        "agent_tool_output": 5000,
+        "clean_hard_negative": 15000,
+        "direct": 18000,
+        "p2": 72628,
+        "strategy": 10000
+      },
+      "by_attack_type": {
+        "Clean": 33157,
+        "Completion": 18157,
+        "Ignore": 28157,
+        "Naive": 41157
+      }
+    },
+    "train_smoke_60000.jsonl": {
+      "total": 60000,
+      "by_category": {
+        "agent_tool_output": 2517,
+        "clean_hard_negative": 7368,
+        "direct": 9024,
+        "p2": 36140,
+        "strategy": 4951
+      },
+      "by_attack_type": {
+        "Clean": 16373,
+        "Completion": 9079,
+        "Ignore": 13899,
+        "Naive": 20649
+      }
+    },
+    "validation.jsonl": {
+      "total": 5300,
+      "by_category": {
+        "agent_tool_output": 200,
+        "clean_hard_negative": 400,
+        "direct": 400,
+        "p2": 4000,
+        "strategy": 300
+      },
+      "by_attack_type": {
+        "Clean": 1400,
+        "Completion": 1000,
+        "Ignore": 1300,
+        "Naive": 1600
+      }
+    },
+    "p3_direct_test.jsonl": {
+      "total": 1000,
+      "by_category": {
+        "direct": 1000
+      },
+      "by_attack_type": {
+        "Naive": 1000
+      }
+    },
+    "p3_strategy_test.jsonl": {
+      "total": 1000,
+      "by_category": {
+        "strategy": 1000
+      },
+      "by_attack_type": {
+        "Ignore": 1000
+      }
+    },
+    "p3_clean_hard_negative_test.jsonl": {
+      "total": 1000,
+      "by_category": {
+        "clean_hard_negative": 1000
+      },
+      "by_attack_type": {
+        "Clean": 1000
+      }
+    }
+  },
+  "by_category": {
+    "agent_tool_output": 7717,
+    "clean_hard_negative": 23768,
+    "direct": 28424,
+    "p2": 112768,
+    "strategy": 16251
+  },
+  "by_split": {
+    "p3_clean_hard_negative_test": 1000,
+    "p3_direct_test": 1000,
+    "p3_strategy_test": 1000,
+    "train": 180628,
+    "validation": 5300
+  },
+  "by_attack_type": {
+    "Clean": 51930,
+    "Completion": 28236,
+    "Ignore": 44356,
+    "Naive": 64406
+  },
+  "by_category_position": {
+    "agent_tool_output": {
+      "append": 1494,
+      "middle": 4299,
+      "prepend": 1924
+    },
+    "clean_hard_negative": {
+      "none": 23768
+    },
+    "direct": {
+      "append": 5702,
+      "middle": 15482,
+      "prepend": 7240
+    },
+    "p2": {
+      "append": 16626,
+      "middle": 50840,
+      "none": 28162,
+      "prepend": 17140
+    },
+    "strategy": {
+      "append": 3202,
+      "middle": 9106,
+      "prepend": 3943
+    }
+  }
+}

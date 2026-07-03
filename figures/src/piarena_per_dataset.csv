@@ -1,0 +1,14 @@
+dataset,direct_utility,direct_asr
+SQuAD v2,99.5,2.0
+Dolly QA,96.5,9.5
+Dolly IE,95.5,8.0
+Dolly Summ.,97.0,16.0
+NQ,91.0,3.0
+MS-MARCO,95.0,5.0
+HotpotQA RAG,94.0,1.0
+HotpotQA Long,54.29453862426834,0.0
+Qasper,26.1336019194495,0.0
+GovReport,23.11323454233671,17.0
+MultiNews,19.42604826810487,16.0
+Passage Retr.,100.0,2.0
+LCC,61.62,3.0

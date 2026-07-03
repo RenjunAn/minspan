@@ -1,0 +1,142 @@
+family,asr,ua
+Detection,1.07,0.74
+Detection,0.69,0.74
+System-level,0.19,26.35
+System-level,-0.0,0.0
+Detection,0.83,4.57
+System-level,16.76,39.85
+Detection,3.71,22.26
+Prevention,3.8,58.33
+Detection,1.85,10.37
+System-level,-0.0,3.67
+System-level,0.52,2.28
+Prevention,47.33,35.78
+Detection,0.67,0.0
+System-level,2.24,2.04
+System-level,-0.0,22.44
+Prevention,29.89,74.54
+Detection,2.0,1.83
+System-level,3.3,30.59
+Detection,-0.0,0.56
+Prevention,2.46,66.04
+System-level,-0.0,0.0
+Detection,5.24,30.15
+System-level,5.89,8.96
+Prevention,18.22,14.33
+System-level,-0.0,0.0
+System-level,-0.0,2.0
+Prevention,0.56,61.13
+Detection,1.33,3.26
+Detection,25.15,57.07
+System-level,-0.0,0.0
+System-level,11.22,8.33
+System-level,-0.0,0.0
+Detection,11.07,6.44
+System-level,0.7,22.59
+Detection,1.67,0.52
+System-level,2.52,4.65
+Prevention,0.37,68.33
+Detection,23.87,11.19
+Detection,-0.0,0.37
+Detection,0.5,5.63
+System-level,3.39,19.31
+Prevention,27.61,52.24
+System-level,-0.0,0.0
+Prevention,17.7,16.63
+Detection,0.52,1.65
+Prevention,27.72,13.02
+Prevention,16.87,52.61
+Prevention,5.43,54.13
+System-level,-0.0,0.0
+System-level,0.69,19.98
+System-level,0.93,33.87
+Detection,1.04,0.19
+Detection,0.67,2.17
+System-level,-0.0,10.63
+Detection,12.17,8.13
+Prevention,9.96,7.35
+System-level,10.33,3.83
+System-level,3.13,4.13
+Detection,1.33,2.93
+Detection,2.06,50.87
+System-level,-0.0,0.0
+System-level,-0.0,0.0
+System-level,-0.0,0.0
+Prevention,3.43,50.06
+Prevention,11.26,55.67
+System-level,0.19,27.19
+Prevention,33.8,37.78
+Detection,0.89,0.74
+System-level,3.09,34.0
+Detection,-0.0,0.56
+System-level,1.09,33.04
+System-level,-0.0,17.63
+Detection,-0.0,7.35
+Detection,8.2,27.69
+Filtering,-0.0,67.94
+Prevention,2.41,69.69
+System-level,-0.0,0.5
+Detection,28.54,13.7
+Detection,0.56,1.11
+System-level,6.15,4.8
+System-level,-0.0,0.0
+System-level,0.19,14.46
+System-level,1.69,5.83
+Prevention,16.96,73.56
+System-level,-0.0,17.17
+System-level,13.59,2.19
+Detection,1.67,1.46
+System-level,1.59,16.06
+Detection,-0.0,1.11
+Detection,1.83,0.7
+Detection,1.37,0.93
+Detection,1.83,2.17
+Prevention,0.37,74.07
+Prevention,17.74,12.5
+Detection,-0.0,33.92
+Prevention,31.17,56.13
+System-level,-0.0,0.0
+Prevention,25.7,14.82
+System-level,-0.0,0.0
+System-level,0.83,27.09
+Prevention,23.94,49.08
+System-level,9.07,33.19
+Filtering,0.83,60.61
+Detection,0.67,41.37
+Detection,27.15,20.8
+System-level,-0.0,0.0
+Detection,-0.0,0.93
+System-level,-0.0,0.0
+System-level,1.22,14.98
+System-level,4.22,4.91
+Prevention,13.28,16.15
+Detection,22.0,10.5
+Detection,14.5,17.18
+Detection,1.17,2.72
+System-level,-0.0,0.0
+Prevention,5.68,53.5
+System-level,0.33,0.33
+System-level,-0.0,0.93
+Prevention,0.37,65.22
+Detection,-0.0,1.11
+Prevention,1.2,53.78
+Detection,0.85,0.56
+System-level,-0.0,0.0
+System-level,2.82,12.41
+Prevention,14.85,6.78
+System-level,-0.0,6.12
+MinSpan,0.69,66.72
+No defense,0.37,64.76
+No defense,4.96,50.04
+No defense,37.8,55.52
+No defense,22.67,10.74
+No defense,37.61,24.29
+No defense,11.65,54.17
+No defense,33.89,73.5
+No defense,11.91,6.15
+No defense,50.0,35.69
+No defense,14.61,15.76
+No defense,3.15,67.07
+No defense,0.87,70.74
+No defense,11.89,55.43
+No defense,20.61,56.95

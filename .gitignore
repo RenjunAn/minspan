@@ -1,0 +1,14 @@
+# large local-only data — see docs/HISTORY.md for canonical archives
+data/*.jsonl
+benchmarks/agentdyn/runs/
+benchmarks/piarena/results/
+results/evaluation-matrix/
+
+# model checkpoints (scripts/download_checkpoint.sh)
+checkpoints/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.claude/

@@ -1,0 +1,11 @@
+dataset: open_prompt_injection
+backend_llm: Qwen/Qwen3-4B-Instruct-2507
+attack: combined
+defense: modernbert_tagger
+name: modernbert_tagger_demo
+seed: 42
+
+defense_config:
+  checkpoint_path: ../../checkpoints/pitagger
+  device: cuda
+  batch_size: 8

@@ -1,0 +1,14 @@
+dataset: open_prompt_injection
+backend_llm: Qwen/Qwen3-4B-Instruct-2507
+attack: combined
+defense: deepseek_pisanitizer
+name: deepseek_pisanitizer_demo
+seed: 42
+
+defense_config:
+  api_key_env: DEEPSEEK_API_KEY
+  base_url: https://api.deepseek.com
+  model: deepseek-v4-flash
+  temperature: 0.0
+  response_format:
+    type: json_object

@@ -1,0 +1,20 @@
+section,metric,value,unit,source
+dataset,p2_retained_train_records,72628,records,split_manifest.json
+dataset,p3_direct_train_records,18000,records,split_manifest.json
+dataset,p3_strategy_train_records,10000,records,split_manifest.json
+dataset,p3_clean_hard_negative_train_records,15000,records,split_manifest.json
+dataset,p3_agent_tool_output_train_records,5000,records,split_manifest.json
+dataset,total_train_records,120628,records,split_manifest.json
+dataset,total_validation_records,5300,records,split_manifest.json
+training,epochs,1,epochs,metrics_1.json
+training,learning_rate,0.00001,fraction,training_plan
+training,optimizer_steps,7540,steps,metrics_1.json
+training,final_train_loss,0.0032819854097989624,fraction,metrics_1.json
+training,processed_tokens,10721047,tokens,metrics_1.json
+training,elapsed_seconds,4374.221505641937,seconds,metrics_1.json
+training,peak_vram_bytes,3502742016,bytes,metrics_1.json
+validation,macro_f1,0.9989003842438208,fraction,metrics_1.json
+validation,accuracy,0.9989213616128468,fraction,metrics_1.json
+validation,exact_clean_match,0.819433962264151,fraction,metrics_1.json
+model,p2_checkpoint_fingerprint,e53f69b62194,sha256_prefix,AgentDyn prepared comparison
+model,p3_checkpoint_fingerprint,89810d4f66b9,sha256_prefix,AgentDyn prepared comparison

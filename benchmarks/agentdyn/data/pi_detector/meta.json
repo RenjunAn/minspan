@@ -1,0 +1,91 @@
+{
+  "seed": 20260526,
+  "version": "v2-hand-crafted",
+  "source": "Mixed by split: train/val are hand-written under user review; test is generated from held-out AgentDyn/AgentDojo suite YAML records.",
+  "construction": "Train/val: per-tool paired benign/injected hand-written samples. Test: per-tool paired AgentDyn-derived benign outputs with programmatic injections. All splits are validated so removing injection_text exactly recovers the paired benign tool_output.",
+  "tools": [
+    "read_inbox",
+    "read_calendar",
+    "read_document",
+    "search_products",
+    "read_issue_thread",
+    "search_web"
+  ],
+  "agentdyn_used": true,
+  "agentdyn_note": "Train/val remain hand-written and AgentDyn-free. The held-out test split is generated from AgentDyn/AgentDojo suite YAML records.",
+  "train_stats": {
+    "total": 48,
+    "by_attack_type": {
+      "ignore": 8,
+      "none": 24,
+      "straightforward": 8,
+      "completion": 8
+    },
+    "n_benign": 24,
+    "n_injected": 24,
+    "decoy_count": 3,
+    "unique_tools": 6,
+    "unique_user_instructions": 24
+  },
+  "val_stats": {
+    "total": 24,
+    "by_attack_type": {
+      "ignore": 4,
+      "straightforward": 4,
+      "completion": 4,
+      "none": 12
+    },
+    "n_benign": 12,
+    "n_injected": 12,
+    "decoy_count": 3,
+    "unique_tools": 6,
+    "unique_user_instructions": 12
+  },
+  "test_stats": {
+    "total": 96,
+    "n_benign": 48,
+    "n_injected": 48,
+    "decoy_count": 9,
+    "by_attack_type": {
+      "completion": 12,
+      "ignore": 18,
+      "none": 48,
+      "straightforward": 18
+    },
+    "by_tool": {
+      "read_calendar": 16,
+      "read_document": 16,
+      "read_inbox": 16,
+      "read_issue_thread": 16,
+      "search_products": 16,
+      "search_web": 16
+    },
+    "by_source_suite": {
+      "dailylife": 32,
+      "github": 28,
+      "workspace": 36
+    }
+  },
+  "test_source": "Held-out AgentDyn/AgentDojo suite YAML records from src/agentdojo/data/suites/**/include/*.yaml. Benign tool outputs are converted from suite environment records; injected paired outputs are created programmatically and validated with exact-removal counterfactual invariants.",
+  "test_seed": 20260527,
+  "test_pairs_per_tool": 8,
+  "test_tools": [
+    "read_inbox",
+    "read_calendar",
+    "read_document",
+    "search_products",
+    "read_issue_thread",
+    "search_web"
+  ],
+  "agentdyn_usage": {
+    "train": false,
+    "val": false,
+    "test": true
+  },
+  "test_construction_note": "GitHub issue placeholders such as {injection_issues_*} are resolved through the corresponding suite injection_vectors.yaml default value before creating new held-out injections.",
+  "split_sources": {
+    "train": "hand-written",
+    "val": "hand-written",
+    "test": "AgentDyn/AgentDojo suite YAML"
+  }
+}

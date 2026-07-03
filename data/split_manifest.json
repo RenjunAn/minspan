@@ -1,0 +1,56 @@
+{
+  "phase": "p3-full",
+  "seed": 42,
+  "source_p2_dir": "/home/test/work/DataFilter/data/tagger-p2",
+  "source_p2_counts": {
+    "train": 72628,
+    "validation": 4000,
+    "sep_test.jsonl": 4000,
+    "format_test.jsonl": 2400,
+    "nemo_test.jsonl": 1272,
+    "nemo_test_clean.jsonl": 1272,
+    "nemo_test_env.jsonl": 1272,
+    "nemo_test_env_clean.jsonl": 1272
+  },
+  "p3_counts": {
+    "direct_train": 18000,
+    "strategy_train": 10000,
+    "hard_negative_train": 15000,
+    "agent_train": 5000,
+    "smoke_train": 60000,
+    "direct_validation": 400,
+    "strategy_validation": 300,
+    "hard_negative_validation": 400,
+    "agent_validation": 200,
+    "direct_test": 1000,
+    "strategy_test": 1000,
+    "hard_negative_test": 1000
+  },
+  "counts": {
+    "train": {
+      "p2": 72628,
+      "p3_direct": 18000,
+      "p3_strategy": 10000,
+      "p3_clean_hard_negative": 15000,
+      "p3_agent_tool_output": 5000,
+      "total": 120628
+    },
+    "train_smoke_60000": 60000,
+    "validation": {
+      "p2": 4000,
+      "p3_direct": 400,
+      "p3_strategy": 300,
+      "p3_clean_hard_negative": 400,
+      "p3_agent_tool_output": 200,
+      "total": 5300
+    },
+    "p3_direct_test": 1000,
+    "p3_strategy_test": 1000,
+    "p3_clean_hard_negative_test": 1000
+  },
+  "notes": [
+    "P2 JSONL records are retained verbatim in train/validation.",
+    "P3 records are synthetic and marked with p3_category.",
+    "Templates are pattern-level additions; benchmark raw examples are not copied."
+  ]
+}
