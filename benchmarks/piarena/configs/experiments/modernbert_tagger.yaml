@@ -1,4 +1,4 @@
-dataset: open_prompt_injection
+dataset: squad_v2
 backend_llm: Qwen/Qwen3-4B-Instruct-2507
 attack: combined
 defense: modernbert_tagger
