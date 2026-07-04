@@ -14,7 +14,7 @@ from typing import Any, NamedTuple
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SUPPORTED_DEFENSES = ("deepseek_pisanitizer", "modernbert_tagger")
+SUPPORTED_DEFENSES = ("deepseek_pisanitizer", "modernbert_tagger", "commandsans")
 DEFAULT_BACKEND_LLM = "Qwen/Qwen3-4B-Instruct-2507"
 
 
