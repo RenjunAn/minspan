@@ -53,6 +53,18 @@ Rules:
 Return only the annotated text, nothing else."""
 
 
+def _tags_balanced(labeled: str) -> bool:
+    """Tags must strictly alternate open/close with no nesting."""
+    import re
+
+    depth = 0
+    for tag in re.findall(r"</?instruction>", labeled):
+        depth += 1 if tag == "<instruction>" else -1
+        if depth not in (0, 1):
+            return False
+    return depth == 0
+
+
 def annotate_record(client: OpenAI, model: str, text: str, temperature: float) -> str:
     response = client.chat.completions.create(
         model=model,
@@ -100,7 +112,7 @@ def main(argv=None) -> None:
                 break
             text = record["complete_text"]
             labeled = annotate_record(client, args.model, text, args.temperature)
-            if strip_tags(labeled) == text:
+            if strip_tags(labeled) == text and _tags_balanced(labeled):
                 dst.write(json.dumps({"id": record_id, "labeled_text": labeled}) + "\n")
                 dst.flush()
                 annotated += 1

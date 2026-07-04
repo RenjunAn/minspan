@@ -67,10 +67,17 @@ def strip_tags(labeled_text: str) -> str:
 
 def load_labeled_jsonl(path: str | Path) -> list[LabeledExample]:
     examples = []
+    skipped = 0
     with open(path) as fh:
         for line in fh:
             record = json.loads(line)
-            examples.append(parse_labeled_text(str(record["id"]), record["labeled_text"]))
+            try:
+                examples.append(parse_labeled_text(str(record["id"]), record["labeled_text"]))
+            except ValueError as error:
+                skipped += 1
+                print(f"skipping malformed record: {error}")
+    if skipped:
+        print(f"skipped {skipped} malformed records, kept {len(examples)}")
     return examples
 
 

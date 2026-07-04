@@ -24,10 +24,13 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 import re
 import statistics
 from collections import Counter, defaultdict
 from pathlib import Path
+
+import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / "benchmarks" / "agentdyn" / "runs"
@@ -196,24 +199,57 @@ def load_run(run_dir: Path) -> list[dict]:
     return cases
 
 
-def suite_bu_ua_asr(cases: list[dict], suite: str) -> dict:
+def suite_flags(cases: list[dict], suite: str) -> dict[str, list[bool]]:
     subset = [c for c in cases if c["suite"] == suite]
-    benign = [c["utility"] for c in subset if c["case"] == "benign" and c["utility"] is not None]
-    attack_u = [c["utility"] for c in subset if c["case"] == "attack" and c["utility"] is not None]
-    attack_s = [c["security"] for c in subset if c["case"] == "attack" and c["security"] is not None]
+    return {
+        "benign": [bool(c["utility"]) for c in subset if c["case"] == "benign" and c["utility"] is not None],
+        "attack_u": [bool(c["utility"]) for c in subset if c["case"] == "attack" and c["utility"] is not None],
+        "attack_s": [bool(c["security"]) for c in subset if c["case"] == "attack" and c["security"] is not None],
+    }
+
+
+def suite_bu_ua_asr(cases: list[dict], suite: str) -> dict:
+    flags = suite_flags(cases, suite)
+    benign, attack_u, attack_s = flags["benign"], flags["attack_u"], flags["attack_s"]
     return {
         "benign_n": len(benign),
-        "benign_utility_pct": statistics.fmean(map(bool, benign)) * 100 if benign else None,
+        "benign_utility_pct": statistics.fmean(benign) * 100 if benign else None,
         "attack_n": len(attack_u),
-        "attack_utility_pct": statistics.fmean(map(bool, attack_u)) * 100 if attack_u else None,
+        "attack_utility_pct": statistics.fmean(attack_u) * 100 if attack_u else None,
         "asr_n": len(attack_s),
-        "asr_pct": statistics.fmean(map(bool, attack_s)) * 100 if attack_s else None,
+        "asr_pct": statistics.fmean(attack_s) * 100 if attack_s else None,
     }
 
 
 def macro(values):
     values = [v for v in values if v is not None]
     return statistics.fmean(values) if values else None
+
+
+def wilson_interval(successes: int, total: int, z: float = 1.959963984540054) -> tuple[float, float]:
+    """95% Wilson score interval for a binomial proportion, in percent."""
+    if total == 0:
+        return math.nan, math.nan
+    p = successes / total
+    denom = 1 + z**2 / total
+    center = (p + z**2 / (2 * total)) / denom
+    half = z * math.sqrt(p * (1 - p) / total + z**2 / (4 * total**2)) / denom
+    return (center - half) * 100, (center + half) * 100
+
+
+def bootstrap_macro_ci(per_suite_flags: list[list[bool]], iterations: int = 10000,
+                       seed: int = 42) -> tuple[float, float]:
+    """95% percentile bootstrap CI (in percent) for a macro-average over suites,
+    resampling tasks within each suite."""
+    rng = np.random.default_rng(seed)
+    arrays = [np.array(flags, dtype=float) for flags in per_suite_flags if flags]
+    if not arrays:
+        return math.nan, math.nan
+    means = np.empty(iterations)
+    for i in range(iterations):
+        means[i] = np.mean([a[rng.integers(0, len(a), len(a))].mean() for a in arrays])
+    low, high = np.percentile(means, [2.5, 97.5])
+    return float(low) * 100, float(high) * 100
 
 
 def overall_bu_ua_asr(cases: list[dict], suites=PAPER_SUITES) -> dict:
@@ -345,7 +381,9 @@ def main() -> None:
     rows = []
     for suite in ALL_SUITES:
         m = suite_bu_ua_asr(minspan_cases, suite)
+        flags = suite_flags(minspan_cases, suite)
         ops = removal_and_edit_stats([c for c in minspan_cases if c["suite"] == suite])
+        cis = [wilson_interval(sum(flags[k]), len(flags[k])) for k in ("benign", "attack_u", "attack_s")]
         rows.append(
             [
                 "suite",
@@ -359,25 +397,36 @@ def main() -> None:
                 fmt(ops["complete_removal_pct"], 16),
                 fmt(ops["benign_edit_pct"], 16),
                 fmt(ops["mean_call_latency_ms"], 16),
+                *(f"{bound:.2f}" for ci in cis for bound in ci),
             ]
         )
     paper = overall_bu_ua_asr(minspan_cases)
+    paper_flags = [suite_flags(minspan_cases, s) for s in PAPER_SUITES]
+    paper_cis = [
+        bootstrap_macro_ci([f[key] for f in paper_flags])
+        for key in ("benign", "attack_u", "attack_s")
+    ]
     rows.append(
         ["paper_3_suite", "all", "", fmt(paper["benign_utility_pct"], 16), "",
-         fmt(paper["attack_utility_pct"], 16), "", fmt(paper["asr_pct"], 16), "", "", ""]
+         fmt(paper["attack_utility_pct"], 16), "", fmt(paper["asr_pct"], 16), "", "", "",
+         *(f"{bound:.2f}" for ci in paper_cis for bound in ci)]
     )
-    benign_all = [c["utility"] for c in minspan_cases if c["case"] == "benign" and c["utility"] is not None]
-    attack_u_all = [c["utility"] for c in minspan_cases if c["case"] == "attack" and c["utility"] is not None]
-    attack_s_all = [c["security"] for c in minspan_cases if c["case"] == "attack" and c["security"] is not None]
+    all_flags = {
+        key: [flag for suite in ALL_SUITES for flag in suite_flags(minspan_cases, suite)[key]]
+        for key in ("benign", "attack_u", "attack_s")
+    }
+    all_cis = [wilson_interval(sum(v), len(v)) for v in all_flags.values()]
     rows.append(
-        ["all_7_suite", "all", len(benign_all), fmt(statistics.fmean(map(bool, benign_all)) * 100, 16),
-         len(attack_u_all), fmt(statistics.fmean(map(bool, attack_u_all)) * 100, 16),
-         len(attack_s_all), fmt(statistics.fmean(map(bool, attack_s_all)) * 100, 16), "", "", ""]
+        ["all_7_suite", "all", len(all_flags["benign"]), fmt(statistics.fmean(all_flags["benign"]) * 100, 16),
+         len(all_flags["attack_u"]), fmt(statistics.fmean(all_flags["attack_u"]) * 100, 16),
+         len(all_flags["attack_s"]), fmt(statistics.fmean(all_flags["attack_s"]) * 100, 16), "", "", "",
+         *(f"{bound:.2f}" for ci in all_cis for bound in ci)]
     )
     write_csv(
         RESULTS / "agentdyn_main.csv",
         ["scope", "suite", "benign_n", "benign_utility_pct", "attack_n", "attack_utility_pct",
-         "asr_n", "asr_pct", "complete_removal_pct", "benign_edit_pct", "mean_latency_ms"],
+         "asr_n", "asr_pct", "complete_removal_pct", "benign_edit_pct", "mean_latency_ms",
+         "bu_ci95_low", "bu_ci95_high", "ua_ci95_low", "ua_ci95_high", "asr_ci95_low", "asr_ci95_high"],
         rows,
     )
 

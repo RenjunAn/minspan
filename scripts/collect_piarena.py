@@ -27,6 +27,8 @@ import json
 import statistics
 from pathlib import Path
 
+import numpy as np
+
 ROOT = Path(__file__).resolve().parents[1]
 BASELINES = ROOT / "benchmarks" / "piarena" / "website" / "data" / "results.json"
 EVAL_DIR = ROOT / "benchmarks" / "piarena" / "results" / "evaluation_results" / "modernbert_tagger_p3_full"
@@ -78,11 +80,26 @@ FIGURE_ORDER = [
 ]
 
 
-def read_eval_file(path: Path) -> tuple[float, float, int]:
+def bootstrap_ci(values: list[float], iterations: int = 10000, seed: int = 42) -> tuple[float, float]:
+    """95% percentile bootstrap CI of the mean, in percent."""
+    array = np.array(values, dtype=float)
+    rng = np.random.default_rng(seed)
+    samples = array[rng.integers(0, len(array), (iterations, len(array)))]
+    low, high = np.percentile(samples.mean(axis=1), [2.5, 97.5])
+    return float(low) * 100, float(high) * 100
+
+
+def read_eval_file(path: Path) -> tuple[float, float, int, tuple[float, float], tuple[float, float]]:
     records = json.loads(path.read_text())
-    utility = statistics.fmean(float(r["utility"]) for r in records.values()) * 100
-    asr = statistics.fmean(float(r["asr"]) for r in records.values()) * 100
-    return utility, asr, len(records)
+    utilities = [float(r["utility"]) for r in records.values()]
+    asrs = [float(r["asr"]) for r in records.values()]
+    return (
+        statistics.fmean(utilities) * 100,
+        statistics.fmean(asrs) * 100,
+        len(records),
+        bootstrap_ci(utilities),
+        bootstrap_ci(asrs),
+    )
 
 
 def main() -> None:
@@ -102,8 +119,8 @@ def main() -> None:
             dataset, attack = mapped, ATTACKS.get(attack_id)
         if attack is None:
             raise SystemExit(f"unknown attack in {path.name}")
-        utility, asr, n = read_eval_file(path)
-        rows.append((dataset, attack, utility, asr, n))
+        utility, asr, n, utility_ci, asr_ci = read_eval_file(path)
+        rows.append((dataset, attack, utility, asr, n, utility_ci, asr_ci))
 
     # InjecAgent: utility = valid_rate, ASR = mean of base/enhanced asr_valid_total
     inj = json.loads(INJECAGENT.read_text())
@@ -115,6 +132,8 @@ def main() -> None:
             statistics.fmean(m["valid_rate"] for m in settings),
             statistics.fmean(m["asr_valid_total"] for m in settings),
             sum(m["total_cases"] for m in settings),
+            None,
+            None,
         )
     )
 
@@ -132,6 +151,8 @@ def main() -> None:
                 statistics.fmean(float(r["attack_utility_pct"]) for r in group),
                 statistics.fmean(float(r["asr_pct"]) for r in group),
                 sum(int(r["attack_n"]) for r in group),
+                None,
+                None,
             )
         )
 
@@ -140,12 +161,18 @@ def main() -> None:
     out = RESULTS / "piarena_main.csv"
     with open(out, "w", newline="") as fh:
         writer = csv.writer(fh)
-        writer.writerow(["defense", "dataset", "attack", "llm", "utility_pct", "asr_pct", "n"])
-        for dataset, attack, utility, asr, n in rows:
-            writer.writerow([DEFENSE, dataset, attack, LLM, f"{utility:.10g}", f"{asr:.10g}", n])
+        writer.writerow(["defense", "dataset", "attack", "llm", "utility_pct", "asr_pct", "n",
+                         "utility_ci95_low", "utility_ci95_high", "asr_ci95_low", "asr_ci95_high"])
+        for dataset, attack, utility, asr, n, utility_ci, asr_ci in rows:
+            ci_cells = (
+                [f"{utility_ci[0]:.2f}", f"{utility_ci[1]:.2f}", f"{asr_ci[0]:.2f}", f"{asr_ci[1]:.2f}"]
+                if utility_ci and asr_ci
+                else ["", "", "", ""]
+            )
+            writer.writerow([DEFENSE, dataset, attack, LLM, f"{utility:.10g}", f"{asr:.10g}", n, *ci_cells])
     print(f"wrote {out.relative_to(ROOT)} ({len(rows)} rows)")
 
-    direct = {(d): (u, a) for d, attack, u, a, _ in rows if attack == "direct"}
+    direct = {d: (u, a) for d, attack, u, a, *_ in rows if attack == "direct"}
     fig = FIGURE_SRC / "piarena_per_dataset.csv"
     with open(fig, "w", newline="") as fh:
         writer = csv.writer(fh)
@@ -170,7 +197,7 @@ def main() -> None:
         if r.get("utility") is None or r.get("asr") is None:
             continue
         cells[(r["defense"], r["dataset"], r["attack"])] = (float(r["utility"]), float(r["asr"]))
-    for dataset, attack, utility, asr, _ in rows:
+    for dataset, attack, utility, asr, *_ in rows:
         if dataset in text_datasets and attack in ("none", "direct", "combined"):
             cells[(DEFENSE, dataset, attack)] = (float(round(utility)), float(round(asr)))
 
