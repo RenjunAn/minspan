@@ -37,6 +37,17 @@ python -m commandsans.train \
 #              bash scripts/eval_agentdyn.sh
 ```
 
+## Trained checkpoint (2026-07-03)
+
+Annotated with DeepSeek (deepseek-chat, temperature 0): 3,911 raw records →
+3,442 validated (469 rejected by the exact-preservation/tag checks). Training
+(xlm-roberta-base, 3 epochs, seed 42) reached word-level validation
+F1 0.728 (precision 0.826, recall 0.651); checkpoint at
+`checkpoints/commandsans/best` (local-only), metrics in
+`checkpoints/commandsans/history.json`. Behavioral spot-check: benign prose
+untouched, direct injections removed, imperative-looking code over-deleted —
+the task-agnostic over-defense pattern the paper discusses.
+
 ## Harness integration
 
 - AgentDyn: `benchmarks/agentdyn/src/agentdojo/agent_pipeline/commandsans_defense.py`
