@@ -51,6 +51,15 @@ validate_defense() {
         fi
       fi
       ;;
+    commandsans)
+      if [ "$DRY_RUN" != "1" ]; then
+        : "${COMMANDSANS_CHECKPOINT:?COMMANDSANS_CHECKPOINT must be set}"
+        if [ ! -d "$COMMANDSANS_CHECKPOINT" ]; then
+          echo "ERROR: CommandSans checkpoint not found: $COMMANDSANS_CHECKPOINT" >&2
+          return 2
+        fi
+      fi
+      ;;
     *)
       echo "ERROR: unsupported token tagger defense: $defense" >&2
       return 2
@@ -69,10 +78,14 @@ run_one() {
     -s "$suite"
     --model "$agent"
     --defense "$defense"
-    --tool-output-format json
     --max-workers 1
     --logdir "$LOGDIR"
   )
+  # token taggers expect JSON-serialized tool outputs (training convention);
+  # commandsans uses the harness default (YAML), as in its native integration
+  if [ "$defense" != "commandsans" ]; then
+    args+=(--tool-output-format json)
+  fi
 
   if [ "$attack" = "important_instructions" ]; then
     args+=(--attack important_instructions)

@@ -861,9 +861,15 @@ class AgentPipeline(BasePipelineElement):
             "modernbert_tagger",
             "commandsans",
         ):
+            # the token taggers were trained on JSON-serialized tool outputs;
+            # CommandSans sees the harness's default (YAML) serialization, as
+            # in its native agentdojo integration
             json_tool_output_formatter = partial(
                 tool_result_to_str,
                 dump_fn=json.dumps,
+            )
+            tool_output_formatter = (
+                tool_result_to_str if config.defense == "commandsans" else json_tool_output_formatter
             )
             tagger_factories = {
                 "datafilter_bidir_tagger": _make_datafilter_bidir_tagger_defense,
@@ -873,7 +879,7 @@ class AgentPipeline(BasePipelineElement):
             tagger_defense = tagger_factories[config.defense]()
             tools_loop = ToolsExecutionLoop(
                 [
-                    ToolsExecutor(json_tool_output_formatter),
+                    ToolsExecutor(tool_output_formatter),
                     tagger_defense,
                     llm,
                 ]
