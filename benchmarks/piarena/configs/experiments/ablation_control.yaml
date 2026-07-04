@@ -1,0 +1,11 @@
+dataset: squad_v2
+backend_llm: Qwen/Qwen3-4B-Instruct-2507
+attack: direct
+defense: modernbert_tagger
+name: ablation_control
+seed: 42
+
+defense_config:
+  checkpoint_path: ../../checkpoints/ablation-control/best
+  device: cuda
+  batch_size: 8

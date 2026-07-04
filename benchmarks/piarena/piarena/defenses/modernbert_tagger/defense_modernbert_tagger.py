@@ -311,6 +311,9 @@ class ModernBERTTagger(BaseDefense):
         "checkpoint_path": None,
         "device": "cuda",
         "batch_size": 8,
+        # ablation switch: feed an empty instruction to the tagger, so a
+        # no-task-conditioning checkpoint runs in its operating condition
+        "blank_instruction": False,
     }
 
     def __init__(self, config: dict = None):
@@ -322,6 +325,8 @@ class ModernBERTTagger(BaseDefense):
 
     def execute_batch(self, target_insts: list[str], contexts: list[str]) -> list[dict]:
         self._validate_batch_inputs(target_insts, contexts)
+        if self.config.get("blank_instruction"):
+            target_insts = ["" for _ in target_insts]
         predictions = list(self._get_backend().sanitize_batch(target_insts, contexts))
         if len(predictions) != len(contexts):
             raise ValueError(f"tagger returned {len(predictions)} predictions for {len(contexts)} contexts")

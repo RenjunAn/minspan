@@ -1,0 +1,12 @@
+dataset: squad_v2
+backend_llm: Qwen/Qwen3-4B-Instruct-2507
+attack: direct
+defense: modernbert_tagger
+name: ablation_no_task_cond
+seed: 42
+
+defense_config:
+  checkpoint_path: ../../checkpoints/ablation-no-task-cond/best
+  device: cuda
+  batch_size: 8
+  blank_instruction: true
