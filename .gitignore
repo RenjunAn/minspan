@@ -18,3 +18,4 @@ baselines/commandsans/data/
 ablation_training.log
 *.log
 benchmarks/agentdyn/runs-rerun/
+benchmarks/piarena/results/evaluation_results/adaptive_*/

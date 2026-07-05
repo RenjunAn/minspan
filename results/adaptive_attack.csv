@@ -1,0 +1,4 @@
+variant,datasets,adaptive_utility,adaptive_asr
+No Defense,6,70.58,67.5
+MinSpan,6,92.33,10.83
+MinSpan − task cond.,6,91.33,1.0

@@ -4,6 +4,7 @@ from ..registry import ATTACK_REGISTRY
 # Import all attack modules to trigger @register_attack decorators
 from . import attack_none  # noqa: F401
 from . import heuristic  # noqa: F401
+from . import adaptive  # noqa: F401
 from .nanogcg import attack_nanogcg  # noqa: F401
 from .strategy_search import attack_strategy_search  # noqa: F401
 from .pair import attack_pair  # noqa: F401
