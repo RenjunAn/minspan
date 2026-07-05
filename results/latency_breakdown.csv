@@ -1,0 +1,5 @@
+measurement,hardware,mode,batch_size,p50_ms,mean_ms,note
+gpu_forward,GB10,eager,8,2.68,2.85,pure model forward per record (excludes CPU tokenization)
+gpu_forward,GB10,compiled,8,1.45,1.52,torch.compile forward per record
+end_to_end,GB10,eager,8,7.66,7.74,evaluate.py per-record incl. CPU tokenization + span decode
+paper,original-hardware,eager,8,2.26,,forward-pass median cited in paper (tab:efficiency)

@@ -1,0 +1,4 @@
+variant,datasets,direct_utility,direct_asr
+control,13,73.8,2.69
+no_task_cond,13,72.38,9.96
+no_hard_negatives,13,73.5,6.0
