@@ -1,4 +1,7 @@
-variant,datasets,adaptive_utility,adaptive_asr
-No Defense,6,70.58,67.5
-MinSpan,6,92.33,10.83
-MinSpan − task cond.,6,91.33,1.0
+attack,variant,datasets,utility,asr
+adaptive_generic,No Defense,6,68.08,70.5
+adaptive_generic,MinSpan,6,96.67,1.33
+adaptive_generic,MinSpan - task cond.,6,96.0,1.42
+adaptive_task_camouflage,No Defense,6,70.58,67.5
+adaptive_task_camouflage,MinSpan,6,92.33,10.83
+adaptive_task_camouflage,MinSpan - task cond.,6,91.33,1.0
